@@ -62,7 +62,7 @@
 	100%{transform: rotate(0deg); margin-left:: 10%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
 
   .wholeLogoMobile{
     display: inline!important;
