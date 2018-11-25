@@ -1,7 +1,7 @@
 
 window.onload= function(){
 
-  if (document.querySelectorAll(".orangeFill") != null ){
+  if (document.querySelectorAll(".orangeFill")[0] != null ){
     logoAnimate();
   }
 
