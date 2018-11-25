@@ -1,0 +1,33 @@
+
+#techBody main{
+  text-align: left;
+}
+
+
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#techBody main a:hover{
+  color: white;
+  background-color: #e77900;
+  padding: 1%;
+}
+
+.workLink{
+  width: 90%;
+  border-bottom: #e77900 dashed 1px;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .workLink{
+    width: 50%;
+    border-bottom: #e77900 dashed 1px;
+  }
+
+  main{
+    margin-left: 10%;
+  }
+}

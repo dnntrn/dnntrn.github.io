@@ -1,0 +1,75 @@
+
+.navBar{
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-duration: 3s;
+}
+
+.wholeLogoMobile{
+  animation-name: rotate !important;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  transform: rotate(0deg);
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  -webkit-animation-name: rotate;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 2s;
+  -webkit-transform: rotate(0deg);
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+
+}
+
+
+#indexBody h1{
+  font-family: "Hiragino Kaku Gothic StdN", sans-serif;
+  font-size: 3em;
+}
+
+#indexBody p{
+  font-size: 1.2em;
+
+}
+
+//custom CSS animations
+
+@keyframes fadeInUp{
+	from{opacity: 0; margin-top: 100%;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes fadeInUp{
+	from{opacity: 0; margin-top: 100%;}
+  to{opacity: 1;}
+}
+
+
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	15% {transform: rotate(-20deg);}
+	25%{transform: rotate(-20deg); margin-left: 20%;}
+	80%{transform: rotate(-20deg); margin-right: 50%;}
+	100%{transform: rotate(0deg); margin-left:: 10%;}
+}
+
+@-webkit-keyframes rotate{
+	0%{transform: rotate(0deg);}
+	15% {transform: rotate(-20deg);}
+	25%{transform: rotate(-20deg); margin-left: 20%;}
+	80%{transform: rotate(-20deg); margin-right: 50%;}
+	100%{transform: rotate(0deg); margin-left:: 10%;}
+}
+
+@media only screen and (min-width: 768px) {
+
+  .wholeLogoMobile{
+    display: inline!important;
+  }
+
+  #logoText{
+    transform: translateX(2.5%);
+  }
+
+}
