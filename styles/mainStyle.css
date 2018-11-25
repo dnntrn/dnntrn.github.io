@@ -26,6 +26,12 @@ main{
 
 }
 
+.logoLink:link, .logoLink:visited{
+  color: white;
+  text-decoration: none;
+}
+
+
 .wholeLogo{
   margin-top: 8%;
   margin-bottom: 5%;
