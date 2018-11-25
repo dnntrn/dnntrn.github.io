@@ -26,6 +26,32 @@ main{
 
 }
 
+.logoContainerMobile{
+  width: 15%;
+  position: relative;
+  height: 0;
+  /* margin-top: 20%; */
+  padding-top: 17%;
+  margin-bottom: 10%;
+  left: 42%;
+  /* top: 20%; */
+  /* margin: 0; */
+
+}
+
+.logoContainerDesktop{
+  width: 15%;
+  position: relative;
+  height: 0;
+  /* margin-top: 20%; */
+  padding-top: 17%;
+  margin-bottom: 10%;
+  left: 42%;
+  /* top: 20%; */
+  /* margin: 0; */
+
+}
+
 .logoLink:link, .logoLink:visited{
   color: white;
   text-decoration: none;
@@ -33,11 +59,24 @@ main{
 
 
 .wholeLogo{
-  margin-top: 8%;
-  margin-bottom: 5%;
+  /* height: 100%; */
+  position: absolute;
+  top: 40%;
+  left: 0;
+  /* margin-top: 10%; */
+  /* margin: 20%;
+  padding: 0; */
+  /* position: relative;
+  top: 20%; */
+  /* left: 33%; */
+  /* height: 0px; */
+  /* width: 30%; */
+  /* height: 10%; */
+  /* margin-top: 8%; */
+  /* margin-bottom: 5%; */
 }
 
-.wholeLogoShake{
+/* .wholeLogoShake{
   animation-name: shake;
   animation-duration: 2s;
   -webkit-animation-name: shake;
@@ -50,6 +89,14 @@ main{
 }
 
 .wholeLogoMobile{
+  display: inline;
+} */
+.logoContainerDesktop{
+  display: none;
+
+}
+
+.logoContainerMobile{
   display: inline;
 }
 
