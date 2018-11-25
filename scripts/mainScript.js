@@ -97,18 +97,20 @@ function logoAnimate() {
   let elem;
   let fillY;
   let checkY;
+  let fillHeight;
   if (mq.matches){
     elem = document.querySelectorAll(".orangeFill")[1];
     fillY = 90;
     checkY = 0;
+    fillHeight = 5;
   } else{
     elem = document.querySelectorAll(".orangeFill")[0];
     fillY = 60;
-    checkY = -10;
+    checkY = -11;
+    fillHeight = 20;
 
   }
   const elemHeight = elem.height;
-  let fillHeight = 5;
   let id = setInterval(frame, 10);
 
   function frame() {
@@ -117,7 +119,7 @@ function logoAnimate() {
 
     } else {
       fillHeight += .5;
-			fillY -= .5;
+			fillY -= .8;
       elem.style.height = fillHeight;
 			elem.style.y = fillY;
     }
