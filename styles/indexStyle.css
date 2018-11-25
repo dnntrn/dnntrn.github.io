@@ -64,8 +64,8 @@
 
 @media only screen and (min-width: 820px) {
 
-  .wholeLogoMobile{
-    display: inline!important;
+  .logoContainerMobile{
+    display: block!important;
   }
 
   #logoText{

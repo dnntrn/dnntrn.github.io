@@ -30,26 +30,18 @@ main{
   width: 15%;
   position: relative;
   height: 0;
-  /* margin-top: 20%; */
-  padding-top: 17%;
+  padding-top: 16.7%;
   margin-bottom: 10%;
   left: 42%;
-  /* top: 20%; */
-  /* margin: 0; */
-
 }
 
 .logoContainerDesktop{
-  width: 15%;
+  width: 50%;
   position: relative;
   height: 0;
-  /* margin-top: 20%; */
-  padding-top: 17%;
-  margin-bottom: 10%;
-  left: 42%;
-  /* top: 20%; */
-  /* margin: 0; */
-
+  padding-top: 12.5%;
+  margin-bottom: 14%;
+  left: 25%;
 }
 
 .logoLink:link, .logoLink:visited{
@@ -59,38 +51,19 @@ main{
 
 
 .wholeLogo{
-  /* height: 100%; */
   position: absolute;
   top: 40%;
   left: 0;
-  /* margin-top: 10%; */
-  /* margin: 20%;
-  padding: 0; */
-  /* position: relative;
-  top: 20%; */
-  /* left: 33%; */
-  /* height: 0px; */
-  /* width: 30%; */
-  /* height: 10%; */
-  /* margin-top: 8%; */
-  /* margin-bottom: 5%; */
 }
 
-/* .wholeLogoShake{
+.wholeLogoShake{
   animation-name: shake;
   animation-duration: 2s;
   -webkit-animation-name: shake;
   -webkit-animation-duration: 2s;
 }
 
-.wholeLogoDesktop{
-  display: none;
 
-}
-
-.wholeLogoMobile{
-  display: inline;
-} */
 .logoContainerDesktop{
   display: none;
 
@@ -348,13 +321,13 @@ h2{
     width: 50%;
   }
 
-  .wholeLogoMobile{
+  .logoContainerMobile{
     display: none;
   }
 
-  .wholeLogoDesktop{
-    display: inline;
-    width: 100%;
+  .logoContainerDesktop{
+    display: block;
+    /* width: 100%; */
     text-align: center;
   }
 }
