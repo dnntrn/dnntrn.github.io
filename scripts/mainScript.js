@@ -1,14 +1,16 @@
 
 window.onload= function(){
 
-  logoAnimate();
+  if (document.querySelectorAll(".orangeFill") != null ){
+    logoAnimate();
+  }
+
 
   //javascript media query
   const mq = window.matchMedia( "(min-width: 820px)" );
 
   if (mq.matches){
     window.addEventListener("scroll", stickyNavBar, false);
-
   }
 
 
@@ -94,25 +96,29 @@ function closeModal(){
 function logoAnimate() {
   //javascript media query
   const mq = window.matchMedia( "(min-width: 820px)" );
+
   let elem;
+  let elemHeight;
   let fillY;
   let checkY;
   let fillHeight;
   let speed;
   if (mq.matches){
     elem = document.querySelectorAll(".orangeFill")[1];
-    fillY = 90;
+    elemHeight = elem.height;
+    fillY = 150;
     checkY = 0;
     fillHeight = 5;
     speed = .8;
   } else{
     elem = document.querySelectorAll(".orangeFill")[0];
+    elemHeight = elem.height;
     fillY = 60;
     checkY = -11;
     fillHeight = 20;
     speed = 1;
   }
-  const elemHeight = elem.height;
+
   let id = setInterval(frame, 10);
 
   function frame() {
