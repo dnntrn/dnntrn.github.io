@@ -4,7 +4,7 @@ window.onload= function(){
   logoAnimate();
 
   //javascript media query
-  const mq = window.matchMedia( "(min-width: 768px)" );
+  const mq = window.matchMedia( "(min-width: 820px)" );
 
   if (mq.matches){
     window.addEventListener("scroll", stickyNavBar, false);
@@ -92,12 +92,27 @@ function closeModal(){
 
 //function to animate the logo
 function logoAnimate() {
-  const elem = document.getElementById("orangeFill");
+  //javascript media query
+  const mq = window.matchMedia( "(min-width: 820px)" );
+  let elem;
+  let fillY;
+  let checkY;
+  if (mq.matches){
+    elem = document.querySelectorAll(".orangeFill")[1];
+    fillY = 90;
+    checkY = 0;
+  } else{
+    elem = document.querySelectorAll(".orangeFill")[0];
+    fillY = 60;
+    checkY = -10;
+
+  }
+  const elemHeight = elem.height;
   let fillHeight = 5;
-	let fillY = 60;
   let id = setInterval(frame, 10);
+
   function frame() {
-    if (fillHeight >= 65) {
+    if (fillY <= checkY) {
       clearInterval(id);
 
     } else {
@@ -112,7 +127,6 @@ function logoAnimate() {
 
 //this function makes a stickyNavBar
 function stickyNavBar(){
-  const mq = window.matchMedia( "(min-width: 768px)" );
   const navBar = document.querySelectorAll(".navBar")[0];
   const logo = document.querySelectorAll(".wholeLogo")[1];
 

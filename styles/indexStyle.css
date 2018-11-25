@@ -64,12 +64,22 @@
 
 @media only screen and (min-width: 820px) {
 
-  .logoContainerMobile{
-    display: block!important;
-  }
-
-  #logoText{
-    transform: translateX(2.5%);
+  .logoContainerDesktop{
+    animation-name: rotate !important;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    transform: rotate(0deg);
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    -webkit-animation-name: rotate;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    -webkit-transform: rotate(0deg);
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+    width: 17%!important;
+    padding-top: 13.6%!important;
+    left: 41.5%!important;
   }
 
 }
