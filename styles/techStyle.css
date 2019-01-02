@@ -21,9 +21,15 @@ a:link, a:visited{
 
 }
 
+.aside{
+  font-family: Avenir, sans-serif;
+  font-size: .8em;
+  color: gray;
+}
+
 @media only screen and (min-width: 820px) {
   .workLink{
-    width: 50%;
+    width: 60%;
     border-bottom: #e77900 dashed 1px;
   }
 
