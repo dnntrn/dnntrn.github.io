@@ -10,9 +10,10 @@ a:link, a:visited{
 }
 
 #techBody main a:hover{
-  color: white;
+  /* color: white;
   background-color: #e77900;
-  padding: 1%;
+  padding: 1%; */
+  color: #e77900;
 }
 
 .workLink{
