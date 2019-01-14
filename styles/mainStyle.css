@@ -288,8 +288,30 @@ h2{
   }
 }
 
+#quickLinks{
+  border: solid 1px #e77900;
+  margin-top: 20%;
+  padding: 5%;
+}
 
+#quickLinks a:link, #quickLinks a:visited{
+  background-color: #e77900;
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+}
 
+#quickLinks a:hover{
+  background-color: white;
+  color: #e77900;
+}
+
+#quickLinks h2{
+  padding-bottom: 5%;
+}
+#quickLinksNote{
+  padding-bottom: 5%;
+}
 @media only screen and (min-width:820px) {
   body{
     padding-left: 10%;
@@ -321,5 +343,35 @@ h2{
   .logoContainerDesktop{
     display: block;
     text-align: center;
+  }
+
+  #quickLinks{
+    background-color: rgba(231, 121, 0, .5);
+    margin-top: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #quickLinks a:link, #quickLinks a:visited{
+    color: black;
+    background-color: rgba(231, 121, 0, 0);
+  }
+
+  #quickLinks a:hover{
+    background-color: #e77900;
+    padding: 1%;
+    color: white;
+  }
+
+  .quickLinksNote{
+    color: gray;
+    padding-bottom: 3%;
+    /* margin-left: 10%; */
+  }
+
+  .quickLinksNote h2{
+    padding-bottom: 5%;
+    /* margin-left: 10%; */
   }
 }
