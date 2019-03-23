@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Nunito|Raleway:200');
+
+p, a:link, ol, ul{
+  font-family: Nunito, sans-serif;
+}
+
+
+h1{
+  font-family: "Raleway", sans-serif;
+}
+
+h2, h3{
+  font-family: "Didact Gothic", sans-serif;
+}
+
+#scrollDown:hover{
+  cursor: pointer;
+}
+
+.animation-elements {
+  opacity: 0;
+  -moz-transition: all 700ms ease-out;
+  -webkit-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  -moz-transform: translate3d(0px, 50px, 0px);
+  -webkit-transform: translate3d(0px, 50px, 0px);
+  -o-transform: translate(0px, 50px);
+  -ms-transform: translate(0px, 50px);
+  transform: translate3d(0px, 50, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+@keyframes blink {
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+  0% { color: #BEBEBE; }
+  100% { color: black; }
+}
+@-webkit-keyframes blink {
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+  0% { color: #BEBEBE; }
+  100% { color: black; }
+}
+.blink {
+  -webkit-animation: blink 1.5s linear infinite;
+  -moz-animation: blink 1.5s linear infinite;
+  animation: blink 1.5s linear infinite;
+}
+
+
+
+.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.hide{
+  display: none !important;
+}
+
+nav{
+  z-index: 10000;
+}
+
+
+.myRow {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+#topJumbotron{
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+}
+
+#topJumbotron h1{
+  font-family: "Raleway", sans-serif;
+}
+
+#topJumbotron p{
+  font-family: "Didact Gothic", sans-serif;
+}
+
+#topJumbotron img{
+  width: 100%;
+  height:auto;
+}
+
+#indexHeader{
+  margin-top: 25%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+section, main{
+  margin-top: 5%;
+}
+
+.sectTitle{
+  font-size: 2.5em;
+}
+
+#about{
+  width: 95%;
+  margin: auto;
+  border-top: 1px solid;
+  padding: 10px;
+  color: #fcd670;
+}
+
+#about h1, #about p, #about ol, #about h2{
+  color: black;
+}
+.articleTitle{
+  font-size: 4em;
+}
+
+
+.sectTitle{
+  margin-bottom: 2%;
+}
+
+#tech{
+  width: 95%;
+  margin: auto;
+}
+
+#techLinks a:link, #techLinks a:visited, footer a:link, footer a:visited{
+  color: black;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+#techLinks a:hover, footer a:hover{
+  color: #FFA400;
+}
+
+#techPortfolio .row{
+  margin-top: 5%;
+}
+
+#techPortfolio.techBlurb, #about p, #about ol, #writingPortfolio.writingBlurb{
+  font-size: 1.2em;
+}
+
+.writingArticleTitle{
+  font-style: italic;
+}
+
+.subBlurb{
+  color: #d35400;
+}
+
+#writingPortfolio .row{
+  margin-top: 5%;
+}
+
+#writingPortfolio .writingBlurb, #techPortfolio .techBlurb{
+  margin-top: 10%;
+}
+
+footer{
+  padding: 10%;
+}
+
+footer i{
+  margin-right: 2%;
+}
+
+
+@media screen and (max-width: 992px){
+  main{
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
