@@ -46,7 +46,27 @@ h2, h3{
   0% { color: #BEBEBE; }
   100% { color: black; }
 }
+@-o-keyframes blink {
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+  0% { color: #BEBEBE; }
+  100% { color: black; }
+}
+@-moz-keyframes blink {
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+  0% { color: #BEBEBE; }
+  100% { color: black; }
+}
+@-ms-keyframes blink {
+  /* 0% { opacity: 0; }
+  100% { opacity: 1; } */
+  0% { color: #BEBEBE; }
+  100% { color: black; }
+}
 .blink {
+  -ms-animation: blink 1.5s linear infinite;
+  -o-animation: blink 1.5s linear infinite;
   -webkit-animation: blink 1.5s linear infinite;
   -moz-animation: blink 1.5s linear infinite;
   animation: blink 1.5s linear infinite;
@@ -169,12 +189,14 @@ section, main{
 
 #techLinks a:link, #techLinks a:visited, footer a:link, footer a:visited{
   color: black;
-  text-decoration: underline;
   font-size: 1.2em;
 }
 
 #techLinks a:hover, footer a:hover{
-  color: #FFA400;
+  /* color: #FFA400; */
+  background-color: #FFA400;
+  text-decoration: underline;
+  padding: 1%;
 }
 
 #techPortfolio .row{
@@ -209,6 +231,23 @@ footer i{
   margin-right: 2%;
 }
 
+.skillsBox{
+  border: 1px solid #495057;
+  background-color: #e9ecef;
+}
+
+a.project-links:link{
+  color: black;
+}
+
+.skills{
+  color: #FFA400;
+  font-weight: bold;
+}
+
+.link-asterisk {
+  color: #efe747;
+}
 
 @media screen and (max-width: 992px){
   main{
