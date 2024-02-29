@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .resume-name {
+        @apply font-poppins uppercase text-[33px] tracking-wider	font-bold text-[#C45B52];
+    }
+    .resume-title {
+        @apply font-lato text-[18px];
+    }
+    .resume-subsection-title {
+        @apply font-poppins text-[16.3px] font-bold uppercase text-[#C45B52];
+    }
+    .resume-role-title {
+        @apply font-lato text-[14.4px] font-bold;
+    }
+    .resume-role-company {
+        @apply font-lato text-[13px] font-bold;
+    }
+    .resume-description {
+        @apply font-lato text-[13px] tracking-wider;
+    }
+}
