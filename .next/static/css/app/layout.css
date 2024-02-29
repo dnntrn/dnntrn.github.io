@@ -577,6 +577,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-\[10px\] {
+  width: 10px;
+}
 .max-w-\[26\%\] {
   max-width: 26%;
 }
@@ -604,6 +607,12 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
 .border-\[\#737373\] {
   --tw-border-opacity: 1;
   border-color: rgb(115 115 115 / var(--tw-border-opacity));
@@ -620,6 +629,9 @@ video {
 }
 .pr-2 {
   padding-right: 0.5rem;
+}
+.font-bold {
+  font-weight: 700;
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

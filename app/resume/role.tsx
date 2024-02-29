@@ -1,6 +1,6 @@
 type Props = {
     title: string;
-    company: string;
+    company: React.ReactNode;
     location: string;
     date: string;
     companyDescription?: string;

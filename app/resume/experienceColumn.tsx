@@ -5,12 +5,12 @@ import Role from './role'
 const ExperienceColumn: NextPage = () => {
   return (
     <div className="p-3 w-full">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 resume-description">
             <Section title="Work Experience" content={
-                <div className="mt-2 flex flex-col gap-3">
+                <div className="mt-3 flex flex-col gap-3">
                     <Role
                         title="Software Engineer, Frontend"
-                        company="Season Health"
+                        company={<a href="https://www.seasonhealth.com/" target="_blank">Season Health</a>}
                         location="NYC, NY (hybrid)"
                         date="Jul 2022 - Nov 2023"
                         companyDescription="a16z-backed Series A health company creating a food-as-medicine platform to improve patient health (B2B and DTC)"
@@ -24,7 +24,7 @@ const ExperienceColumn: NextPage = () => {
                     ]} />
                     <Role
                         title="Software Engineer II"
-                        company="Ellevest"
+                        company={<a href="https://www.ellevest.com/" target="_blank">Ellevest</a>}
                         location="NYC, NY"
                         date="Jun 2019 - Jun 2022"
                         companyDescription="Series B finance company offering wealth management services focused on underrepresented groups (DTC)"
@@ -41,7 +41,7 @@ const ExperienceColumn: NextPage = () => {
                 
             } />
             <Section title="Additional Leadership Experience" content={
-                <div className="mt-2 flex flex-col gap-3">
+                <div className="mt-3 flex flex-col gap-3">
                     <Role
                         title="Instructor, volunteer"
                         company="Standford Code in Place"
