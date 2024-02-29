@@ -6,7 +6,7 @@ const InfoColumn: NextPage = () => {
     <div className="bg-[#FDF1F2] p-3 w-fit max-w-[26%]">
         <h1 className="resume-name">Deanna Tran</h1>
         <div className="resume-title mt-2 mb-6">Software Engineer</div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-4">
             <Section title="Summary" content={
                 <p>Software Engineer with 4 years of experience. Excellent at cross-functional collaboration and highly motivated by business impact. Passionate about product and beautiful web development.</p>
             } />
@@ -26,7 +26,7 @@ const InfoColumn: NextPage = () => {
                 </>
             }   />
             <Section title="Skills" content={
-                <ul>
+                <ul className="list-disc ml-3">
                     <li>React</li>
                     <li>TypeScript, JavaScript</li>
                     <li>React Testing Library, Jest</li>
