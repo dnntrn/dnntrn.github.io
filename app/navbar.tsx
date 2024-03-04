@@ -30,7 +30,7 @@ const Navbar = () => {
     }
     return (
         <nav>
-            <motion.button
+            {/* <motion.button
                     initial={false}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -53,10 +53,31 @@ const Navbar = () => {
                             </li>
                         </ul>
                     )}   
-            </motion.button>
+            </motion.button> */}
+
+            <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-[50px] mb-12 fixed left-1/2 ml-[-180px] top-4 z-[100] bg-[rgba(255,255,255,.2)]">
+                <ul className="flex saturate-150 justify-between w-full">
+                    <li className="py-1 px-4">
+                        Projects
+                    </li>
+                    <li className="py-1 px-4">
+                        Personal
+                    </li>
+                    <li className="py-1 px-4">
+                        Career
+                    </li>
+                    <li className="py-1 px-4">
+                        Resume
+                    </li>
+                </ul>
+            </div>
+            
             
         </nav>
     );
 };
 
 export default Navbar;
+
+
+

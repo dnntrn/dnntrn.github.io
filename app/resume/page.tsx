@@ -17,7 +17,7 @@ const Resume: NextPage = () => {
         ></script> */}
       </Head>
 
-      <div className="max-w-[960px] mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex gap-3">
+      <div className="max-w-[960px] bg-white mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex gap-3">
         <InfoColumn />
         <ExperienceColumn />
       </div>

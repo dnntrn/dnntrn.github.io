@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,8 +9,11 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-      lato: ["Lato", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
+      poppins: ['var(--font-poppins)'],
+      lato: ['var(--font-lato)'],
+      higuen: ['var(--font-higuen)'],
+      commons: ['var(--font-commons)'],
     },
   },
   plugins: [],

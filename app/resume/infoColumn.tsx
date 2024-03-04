@@ -41,7 +41,7 @@ const InfoColumn: NextPage = () => {
             } />
             <Section title="Education" content={
                 <div className="flex flex-col gap-1">
-                    <div className="resume-role-title">Bachelor of Arts, Computer Science</div>
+                    <div className="resume-role-title font-bold">Bachelor of Arts, Computer Science</div>
                     <div><span className="font-bold">New York University</span>, May 2020</div>
                     <div>Minors: Web Design and Linguistics</div>
                 </div>
