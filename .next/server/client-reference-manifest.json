@@ -40,41 +40,41 @@
         "async": false
       }
     },
-    "(app-client)/./app/resume/page.tsx": {
+    "(app-client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/higuen_serif.otf\",\"weight\":\"400\"}],\"variable\":\"--font-higuen\"}],\"variableName\":\"higuenSerif\"}": {
       "*": {
-        "id": "(sc_client)/./app/resume/page.tsx",
+        "id": "(sc_client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/brittany_signature.ttf\",\"weight\":\"400\"}],\"variable\":\"--font-brittany\"}],\"variableName\":\"brittanySignature\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/layout.tsx": {
+    "(app-client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/brittany_signature.ttf\",\"weight\":\"400\"}],\"variable\":\"--font-brittany\"}],\"variableName\":\"brittanySignature\"}": {
       "*": {
-        "id": "(sc_client)/./app/layout.tsx",
+        "id": "(sc_client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/brittany_signature.ttf\",\"weight\":\"400\"}],\"variable\":\"--font-brittany\"}],\"variableName\":\"brittanySignature\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Poppins\",\"arguments\":[{\"variable\":\"--font-poppins\",\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"poppins\"}": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./public/images/me.png": {
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Lato\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-lato\",\"weight\":[\"400\",\"700\"],\"display\":\"swap\"}],\"variableName\":\"lato\"}": {
       "*": {
-        "id": "(sc_client)/./public/images/me.png",
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./public/images/me-lion.jpg": {
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}": {
       "*": {
-        "id": "(sc_client)/./public/images/me-lion.jpg",
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
         "name": "*",
         "chunks": [],
         "async": false
@@ -160,9 +160,33 @@
         "async": false
       }
     },
-    "(app-client)/./app/accordian.tsx": {
+    "(app-client)/./app/globals.css": {
       "*": {
-        "id": "(sc_client)/./app/accordian.tsx",
+        "id": "(sc_client)/./app/globals.css",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/resume/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/resume/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -251,6 +275,142 @@
       ],
       "async": false
     },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/higuen_serif.otf\",\"weight\":\"400\"}],\"variable\":\"--font-higuen\"}],\"variableName\":\"higuenSerif\"}": {
+      "id": "(app-client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/higuen_serif.otf\",\"weight\":\"400\"}],\"variable\":\"--font-higuen\"}],\"variableName\":\"higuenSerif\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/brittany_signature.ttf\",\"weight\":\"400\"}],\"variable\":\"--font-brittany\"}],\"variableName\":\"brittanySignature\"}": {
+      "id": "(app-client)/./node_modules/@next/font/local/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/brittany_signature.ttf\",\"weight\":\"400\"}],\"variable\":\"--font-brittany\"}],\"variableName\":\"brittanySignature\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Poppins\",\"arguments\":[{\"variable\":\"--font-poppins\",\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"poppins\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Poppins\",\"arguments\":[{\"variable\":\"--font-poppins\",\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"poppins\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Lato\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-lato\",\"weight\":[\"400\",\"700\"],\"display\":\"swap\"}],\"variableName\":\"lato\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Lato\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-lato\",\"weight\":[\"400\",\"700\"],\"display\":\"swap\"}],\"variableName\":\"lato\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/fonts.ts\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-roboto\",\"weight\":[\"100\",\"300\",\"400\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intermittent-messaging.png": {
+      "id": "(app-client)/./public/images/projects/intermittent-messaging.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/galley.png": {
+      "id": "(app-client)/./public/images/projects/galley.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/checkout.png": {
+      "id": "(app-client)/./public/images/projects/checkout.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intake-form.png": {
+      "id": "(app-client)/./public/images/projects/intake-form.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/storefront.png": {
+      "id": "(app-client)/./public/images/projects/storefront.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/fraud-flow.png": {
+      "id": "(app-client)/./public/images/projects/fraud-flow.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/id-tech-camps.png": {
+      "id": "(app-client)/./public/images/mentorship/id-tech-camps.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/winc-logo.png": {
+      "id": "(app-client)/./public/images/mentorship/winc-logo.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/stanford-code-in-place.jpeg": {
+      "id": "(app-client)/./public/images/mentorship/stanford-code-in-place.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/nyc-women-in-stem.png": {
+      "id": "(app-client)/./public/images/mentorship/nyc-women-in-stem.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/app/globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/app/navbar.tsx": {
+      "id": "(app-client)/./app/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/deanna/Desktop/workspace/my-website/app/resume/page.tsx": {
       "id": "(app-client)/./app/resume/page.tsx",
       "name": "*",
@@ -259,128 +419,8 @@
       ],
       "async": false
     },
-    "/Users/deanna/Desktop/workspace/my-website/app/layout.tsx": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/me.png": {
-      "id": "(app-client)/./public/images/me.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/me-lion.jpg": {
-      "id": "(app-client)/./public/images/me-lion.jpg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intermittent-messaging.png": {
-      "id": "(app-client)/./public/images/projects/intermittent-messaging.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/galley.png": {
-      "id": "(app-client)/./public/images/projects/galley.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/checkout.png": {
-      "id": "(app-client)/./public/images/projects/checkout.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intake-form.png": {
-      "id": "(app-client)/./public/images/projects/intake-form.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/storefront.png": {
-      "id": "(app-client)/./public/images/projects/storefront.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/fraud-flow.png": {
-      "id": "(app-client)/./public/images/projects/fraud-flow.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/id-tech-camps.png": {
-      "id": "(app-client)/./public/images/mentorship/id-tech-camps.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/winc-logo.png": {
-      "id": "(app-client)/./public/images/mentorship/winc-logo.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/stanford-code-in-place.jpeg": {
-      "id": "(app-client)/./public/images/mentorship/stanford-code-in-place.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/nyc-women-in-stem.png": {
-      "id": "(app-client)/./public/images/mentorship/nyc-women-in-stem.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/deanna/Desktop/workspace/my-website/app/accordian.tsx": {
-      "id": "(app-client)/./app/accordian.tsx",
+    "/Users/deanna/Desktop/workspace/my-website/app/page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -389,10 +429,10 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/deanna/Desktop/workspace/my-website/app/resume/page": [],
     "/Users/deanna/Desktop/workspace/my-website/app/layout": [
       "static/css/app/layout.css"
     ],
+    "/Users/deanna/Desktop/workspace/my-website/app/resume/page": [],
     "/Users/deanna/Desktop/workspace/my-website/app/page": []
   }
 }

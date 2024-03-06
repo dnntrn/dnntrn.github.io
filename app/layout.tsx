@@ -1,6 +1,4 @@
-'use client'
 import Navigation from "./navbar";
-import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient'
 import type { Metadata } from 'next'
 import './globals.css'
 import clsx from "clsx";
@@ -17,21 +15,7 @@ export default function RootLayout({ children }:any) {
       <html lang="en">
         <body className={clsx("pt-20", higuenSerif.variable, poppins.variable, lato.variable, roboto.variable, brittanySignature.variable)}>
             <Navigation />
-            <ShaderGradientCanvas
-                style={{
-                    position: 'absolute',
-                    top: 0,
-                    pointerEvents: "none",
-                    zIndex: -1
-                    
-                }}
-            >
-                <ShaderGradient
-                    control='query'
-                    urlString="https://www.shadergradient.co/customize?animate=on&axesHelper=off&bgColor1=%23000000&bgColor2=%23000000&brightness=1.2&cAzimuthAngle=0&cDistance=1.9&cPolarAngle=90&cameraZoom=1&color1=%23fcd9dc&color2=%23f5c1c5&color3=%23fcd9dc&destination=onCanvas&embedMode=off&envPreset=city&format=gif&fov=40&frameRate=10&gizmoHelper=hide&grain=off&lightType=3d&pixelDensity=0.5&positionX=0&positionY=2&positionZ=0&range=disabled&rangeEnd=40&rangeStart=0&reflection=0.1&rotationX=0&rotationY=0&rotationZ=90&shader=defaults&type=waterPlane&uAmplitude=0&uDensity=1.1&uFrequency=5.5&uSpeed=0.3&uStrength=5.4&uTime=0&wireframe=false"
-                    // urlString="https://www.shadergradient.co/customize?animate=on&axesHelper=off&bgColor1=%23000000&bgColor2=%23000000&brightness=1.2&cAzimuthAngle=0&cDistance=1.9&cPolarAngle=90&cameraZoom=1&color1=%23fcd9dc&color2=%23f5c1c5&color3=%23fcd9dc&destination=onCanvas&embedMode=off&envPreset=city&format=gif&fov=40&frameRate=10&gizmoHelper=hide&grain=off&lightType=3d&pixelDensity=0.5&positionX=0&positionY=2&positionZ=0&range=disabled&rangeEnd=40&rangeStart=0&reflection=0.1&rotationX=0&rotationY=0&rotationZ=90&shader=defaults&type=waterPlane&uAmplitude=0&uDensity=1.1&uFrequency=5.5&uSpeed=0.2&uStrength=4.3&uTime=0&wireframe=false"
-                />
-            </ShaderGradientCanvas>
+            
             <main>{children}</main>
             <Footer />
         </body>

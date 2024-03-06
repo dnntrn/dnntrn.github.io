@@ -69,6 +69,7 @@ export const professionalExperience = [
         companyWebsite: "https://www.seasonhealth.com/",
         location: "NYC, NY (hybrid)",
         date: "Jul 2022 - Nov 2023",
+        years: "2022-23",
         companyDescription: "a16z-backed Series A health company creating a food-as-medicine platform to improve patient health (B2B and DTC)",
         keyTechnologies: ["React", "React Query", "TypeScript", "TailwindCSS", "React Testing Library", "DataDog"],
         responsibilities: [
@@ -85,6 +86,7 @@ export const professionalExperience = [
         companyWebsite: "https://www.ellevest.com/",
         location: "NYC, NY",
         date: "Jun 2019 - Jun 2022",
+        years: "2019-22",
         companyDescription: "Series B finance company offering wealth management services focused on underrepresented groups (DTC)",
         keyTechnologies: ["React", "JavaScript", "Redux", "Jest", "Enzyme", "React Native"],
         responsibilities: [

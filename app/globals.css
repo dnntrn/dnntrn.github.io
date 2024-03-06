@@ -1,12 +1,13 @@
 body {
     @apply pb-10 bg-[#F2D0D4]
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 section {
-    @apply max-w-[1024px] m-auto;
+    @apply max-w-[90%] lg:max-w-[1024px] m-auto;
 }
 
 a {
@@ -20,6 +21,7 @@ em {
 p {
     @apply font-roboto
 }
+
 @layer components {
     .resume-name {
         @apply font-poppins uppercase text-[33px] tracking-wider font-bold text-[#C45B52];

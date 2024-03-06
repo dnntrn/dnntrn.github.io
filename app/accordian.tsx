@@ -16,7 +16,7 @@ const Accordian = ({ role, year, description }: Props) => {
     }
     return (
         <>
-            <button className={clsx("bg-dusty-pink text-white rounded-4xl duration-[400ms] ease-in-out transition-all relative p-4 flex justify-between items-center hover:bg-t-mobile hover:scale-[1.02]", showDescription && "bg-t-mobile")} onClick={toggle}>
+            <button className={clsx("bg-dusty-pink text-white text-left rounded-4xl duration-[400ms] ease-in-out transition-all relative p-4 flex justify-between items-center hover:bg-t-mobile hover:scale-[1.02]", showDescription && "bg-t-mobile")} onClick={toggle}>
                 <div>{role}</div>
                 <div className="flex gap-4 items-center">
                     <div>{year}</div>

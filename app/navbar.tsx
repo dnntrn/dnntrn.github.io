@@ -55,7 +55,7 @@ const Navbar = () => {
                     )}   
             </motion.button> */}
 
-            <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 ml-[-180px] top-4 z-[100] bg-white-transparent">
+            <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 -ml-[185px] top-4 z-[100] bg-white-transparent">
                 <ul className="flex saturate-150 justify-between w-full">
                     <li className="py-1 px-4">
                         About

@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         't-mobile': '#CE005C',
         'dusty-pink': '#dd838e',
-        'white-transparent': 'rgba(255,255,255,.2)'
+        'white-transparent': 'rgba(255,255,255,.2)',
+        'white-transparent-3': 'rgba(255,255,255,.3)',
       },
       boxShadow: {
         around: '0 1rem 3rem rgba(0,0,0,.175)',
