@@ -55,16 +55,16 @@ const Navbar = () => {
                     )}   
             </motion.button> */}
 
-            <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-[50px] mb-12 fixed left-1/2 ml-[-180px] top-4 z-[100] bg-[rgba(255,255,255,.2)]">
+            <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 ml-[-180px] top-4 z-[100] bg-white-transparent">
                 <ul className="flex saturate-150 justify-between w-full">
+                    <li className="py-1 px-4">
+                        About
+                    </li>
                     <li className="py-1 px-4">
                         Projects
                     </li>
                     <li className="py-1 px-4">
                         Personal
-                    </li>
-                    <li className="py-1 px-4">
-                        Career
                     </li>
                     <li className="py-1 px-4">
                         Resume

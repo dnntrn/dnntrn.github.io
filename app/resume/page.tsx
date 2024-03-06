@@ -1,26 +1,41 @@
+'use client'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import InfoColumn from './infoColumn'
 import ExperienceColumn from './experienceColumn'
 
 const Resume: NextPage = () => {
+  const downloadPDF = () => {
+    fetch("resume.pdf").then((response) => {
+        response.blob().then((blob) => {
+            const fileURL =
+                window.URL.createObjectURL(blob);
+                
+            let alink = document.createElement("a");
+            alink.href = fileURL;
+            alink.download = "Deanna Tran Resume.pdf";
+            alink.click();
+        });
+    });
+  }
   return (
     <div>
       <Head>
         <title>Deanna Tran Resume</title>
         <meta name="description" content="Deanna Tran Resume" />
         <link rel="icon" href="/favicon.ico" />
-        {/* <script
-          // you might need to get a newer version
-          src="https://kit.fontawesome.com/fbadad80a0.js"
-          crossOrigin="anonymous"
-        ></script> */}
       </Head>
 
-      <div className="max-w-[960px] bg-white mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex gap-3">
-        <InfoColumn />
-        <ExperienceColumn />
+      <div className='max-w-[960px] m-auto'>
+        <button onClick={downloadPDF} className='hover:underline font-roboto'>
+            Download PDF
+        </button>
+        <div className="bg-[#ffff] mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex gap-3">
+          <InfoColumn />
+          <ExperienceColumn />
+        </div>
       </div>
+      
     </div>
   )
 }

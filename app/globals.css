@@ -1,14 +1,24 @@
-
+body {
+    @apply pb-10 bg-[#F2D0D4]
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    background: linear-gradient(to bottom, hsla(159, 42%, 88%, 1) 0%, hsla(160, 52%, 71%, 1) 9.7%, hsla(172, 95%, 18%, 1) 18.1%, hsla(36, 31%, 90%, .104) 25.5%, hsla(36, 31%, 90%, .175) 31.9%, hsla(36, 31%, 90%, .259) 37.7%, hsla(36, 31%, 90%, .352) 43%, hsla(36, 31%, 90%, .45) 47.9%, hsla(36, 31%, 90%, .55) 52.8%, hsla(36, 31%, 90%, .648) 57.7%, hsla(36, 31%, 90%, .741) 63%, hsla(36, 31%, 90%, .825) 68.7%, hsla(36, 31%, 90%, .896) 75%, hsla(36, 31%, 90%, .951) 82.2%, hsla(36, 31%, 90%, .987) 90.5%, hsl(36, 31%, 90%) 100% )
-} */
-
 section {
-    @apply p-14;
+    @apply max-w-[1024px] m-auto;
+}
+
+a {
+    @apply hover:underline
+}
+
+em {
+    @apply text-t-mobile not-italic font-bold
+}
+
+p {
+    @apply font-roboto
 }
 @layer components {
     .resume-name {

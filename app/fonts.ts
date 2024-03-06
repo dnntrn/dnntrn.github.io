@@ -1,4 +1,4 @@
-import { Poppins, Lato, Roboto, Black_Han_Sans } from 'next/font/google'
+import { Poppins, Lato, Roboto } from 'next/font/google'
 import localFont from '@next/font/local'
 
 export const higuenSerif = localFont({
@@ -11,16 +11,15 @@ export const higuenSerif = localFont({
   variable: '--font-higuen'
 })
 
-export const ttCommonsPro = localFont({
-    src: [
-      {
-        path: '../public/fonts/tt_commons_pro_regular.otf',
-        weight: '400'
-      },
-    ],
-    variable: '--font-commons'
-  })
-  
+export const brittanySignature = localFont({
+  src: [
+    {
+      path: '../public/fonts/brittany_signature.ttf',
+      weight: '400'
+    },
+  ],
+  variable: '--font-brittany'
+})
 
 export const poppins = Poppins({
     variable: '--font-poppins',

@@ -40,9 +40,129 @@
         "async": false
       }
     },
+    "(app-client)/./app/resume/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/resume/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/layout.tsx": {
       "*": {
         "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/me.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/me.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/me-lion.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/me-lion.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/intermittent-messaging.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/intermittent-messaging.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/galley.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/galley.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/checkout.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/checkout.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/intake-form.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/intake-form.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/storefront.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/storefront.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/projects/fraud-flow.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/projects/fraud-flow.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/mentorship/id-tech-camps.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/mentorship/id-tech-camps.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/mentorship/winc-logo.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/mentorship/winc-logo.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/mentorship/stanford-code-in-place.jpeg": {
+      "*": {
+        "id": "(sc_client)/./public/images/mentorship/stanford-code-in-place.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/mentorship/nyc-women-in-stem.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/mentorship/nyc-women-in-stem.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/accordian.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/accordian.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -131,6 +251,14 @@
       ],
       "async": false
     },
+    "/Users/deanna/Desktop/workspace/my-website/app/resume/page.tsx": {
+      "id": "(app-client)/./app/resume/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/resume/page:static/chunks/app/resume/page.js"
+      ],
+      "async": false
+    },
     "/Users/deanna/Desktop/workspace/my-website/app/layout.tsx": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "*",
@@ -138,13 +266,133 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/me.png": {
+      "id": "(app-client)/./public/images/me.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/me-lion.jpg": {
+      "id": "(app-client)/./public/images/me-lion.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intermittent-messaging.png": {
+      "id": "(app-client)/./public/images/projects/intermittent-messaging.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/galley.png": {
+      "id": "(app-client)/./public/images/projects/galley.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/checkout.png": {
+      "id": "(app-client)/./public/images/projects/checkout.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/intake-form.png": {
+      "id": "(app-client)/./public/images/projects/intake-form.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/storefront.png": {
+      "id": "(app-client)/./public/images/projects/storefront.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/projects/fraud-flow.png": {
+      "id": "(app-client)/./public/images/projects/fraud-flow.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/id-tech-camps.png": {
+      "id": "(app-client)/./public/images/mentorship/id-tech-camps.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/winc-logo.png": {
+      "id": "(app-client)/./public/images/mentorship/winc-logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/stanford-code-in-place.jpeg": {
+      "id": "(app-client)/./public/images/mentorship/stanford-code-in-place.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/public/images/mentorship/nyc-women-in-stem.png": {
+      "id": "(app-client)/./public/images/mentorship/nyc-women-in-stem.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/deanna/Desktop/workspace/my-website/app/accordian.tsx": {
+      "id": "(app-client)/./app/accordian.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/deanna/Desktop/workspace/my-website/app/page": [],
+    "/Users/deanna/Desktop/workspace/my-website/app/resume/page": [],
     "/Users/deanna/Desktop/workspace/my-website/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/deanna/Desktop/workspace/my-website/app/resume/page": []
+    "/Users/deanna/Desktop/workspace/my-website/app/page": []
   }
 }

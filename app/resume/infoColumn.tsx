@@ -3,6 +3,7 @@ import Section from './section'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { contacts } from '../copy';
 
 const InfoColumn: NextPage = () => {
   return (
@@ -16,25 +17,25 @@ const InfoColumn: NextPage = () => {
             <Section title="Contact" content={
                 <div className="flex flex-col gap-1">
                     <div className="flex gap-2">
-                        <FontAwesomeIcon className="w-[10px]" icon={ faLocationDot } />
+                        <FontAwesomeIcon className="w-[.625rem]" icon={ faLocationDot } />
                         <div>New York City, NY</div>
                     </div>
-                    <a href="mailto:itsdeannatran@gmail.com" target="_blank">
+                    <a href={contacts.email.link} target="_blank">
                         <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[10px]" icon={ faEnvelopeOpen } />
-                            <div>itsdeannatran@gmail.com</div>
+                            <FontAwesomeIcon className="w-[.625rem]" icon={ faEnvelopeOpen } />
+                            <div>{contacts.email.text}</div>
                         </div>
                     </a>
-                    <a href="tel:+18564057989" target="_blank">
+                    <a href={contacts.phone.link} target="_blank">
                         <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[10px]" icon={ faPhone } />
-                            <div>856-405-7989</div>
+                            <FontAwesomeIcon className="w-[.625rem]" icon={ faPhone } />
+                            <div>{contacts.phone.text}</div>
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/deannatran/" target="_blank">
+                    <a href={contacts.linkedin.link} target="_blank">
                         <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[10px]" icon={ faLinkedin } />
-                            <div>linkedin.com/in/deannatran/</div>
+                            <FontAwesomeIcon className="w-[.625rem]" icon={ faLinkedin } />
+                            <div>{contacts.linkedin.text}</div>
                         </div>
                     </a>  
                 </div>
