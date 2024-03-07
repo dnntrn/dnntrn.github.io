@@ -39,10 +39,10 @@ const Page = () => {
                     />
                     <h1 className="text-center font-brittany text-t-mobile text-[4.5rem] md:text-[5rem]">Hi! I&apos;m Deanna.</h1>
                     <p className="text-[1.1rem] md:text-[1.3rem] w-[90%] m-auto">
-                        I'm a Software Engineer based in New York City.
+                        I&apos;m a Software Engineer based in New York City.
                     </p>
                     <p className="text-[1.1rem] md:text-[1.3rem] w-[90%] m-auto">
-                        I'm passionate about building beautiful features that deliver meaningful impact.
+                        I&apos;m passionate about building beautiful features that deliver meaningful impact.
                     </p>
                     
                 </div>
@@ -105,18 +105,17 @@ const Page = () => {
                             width={150}
                         />
                         <div className='flex flex-col gap-4'>
-                            <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as "just an elective", and soon became my major and passion.</p>
+                            <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as &quot;just an elective&quot;, and soon became my major and passion.</p>
                             <p>I struggled a lot with self-doubt when I first started coding, and I love teaching others how to code by focusing on empathy and the creative aspects of development.</p>
                             <p>Please reach out if you need advice or just an ear to listen! <FontAwesomeIcon className="w-6 inline" color='red' icon={ faHeart } /></p>
                         </div>
                     </div>
 
-                    <p className='font-poppins text-t-mobile font-bold mt-4'>I'm proud to have taught students with:</p>
+                    <p className='font-poppins text-t-mobile font-bold mt-4'>I&apos;m proud to have taught students with:</p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
                         {mentoredAt.map((org) => (
-                            <a href={org.link} target="_blank">
+                            <a key={org.link} href={org.link} target="_blank">
                                 <Image
-                                    key={org.alt}
                                     src={org.src}
                                     alt={org.alt}
                                     width={200}
@@ -129,7 +128,7 @@ const Page = () => {
 
             <section className='-mt-[1rem] grid grid-cols-1 md:grid-cols-2 gap-3 md:px-6'>
                 {interests.map((interest) => (
-                    <InterestPill {...interest} />
+                    <InterestPill key={interest.title} {...interest} />
                 ))}
             </section>
         </div>
