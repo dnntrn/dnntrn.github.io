@@ -27,10 +27,10 @@ const Resume: NextPage = () => {
       </Head>
 
       <div className='max-w-[960px] m-auto'>
-        <button onClick={downloadPDF} className='hover:underline font-roboto'>
+        <button onClick={downloadPDF} className='hover:underline font-lato'>
             Download PDF
         </button>
-        <div className="bg-[#ffff] mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex gap-3">
+        <div className="bg-[#ffff] mx-auto p-5 mb-5 my-5 shadow-[0_1rem_3rem_rgba(0,0,0,.175)] flex flex-col md:flex-row gap-3">
           <InfoColumn />
           <ExperienceColumn />
         </div>

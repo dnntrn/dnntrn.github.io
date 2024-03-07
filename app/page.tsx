@@ -132,23 +132,6 @@ const Page = () => {
                     <InterestPill {...interest} />
                 ))}
             </section>
-            
-
-            
-
-            {/* <div className="w-full bg-[#DF72A9] text-white py-20 mt-10 text-[20px]">
-                <section>
-                    <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as "just an elective", and soon became my major and passion.</p>
-                    <p>I struggled a lot with self-doubt when I first started coding, and I love teaching others how to code by focusing on empathy and the creative aspects of development.</p>
-                </section>
-            </div> */}
-
-            {/* <h2 className='text-[2.8rem] font-higuen'>Things I've worked on</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-12">
-                {projects.map(({ title, ...rest }) => (
-                    <Project key={title} title={title} {...rest} />
-                ))}
-            </div> */}
         </div>
     </div>
   )
