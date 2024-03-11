@@ -33,6 +33,7 @@ const Page = () => {
                         src="/images/me.png"
                         alt="profile picture"
                         width={200}
+                        height={200}
                         className='m-auto'
                     />
                     <h1 className="text-center font-brittany text-t-mobile text-[4.5rem] md:text-[5rem]">Hi! I&apos;m Deanna.</h1>
@@ -99,8 +100,10 @@ const Page = () => {
                     <div className='flex flex-col md:flex-row gap-6 items-center'>
                         <Image
                             src="/images/meWithLion.png"
+
                             alt="Me and my cat"
                             width={150}
+                            height={150}
                         />
                         <div className='flex flex-col gap-4'>
                             <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as &quot;just an elective&quot;, and soon became my major and passion.</p>
@@ -117,6 +120,7 @@ const Page = () => {
                                     src={org.src}
                                     alt={org.alt}
                                     width={200}
+                                    height={200}
                                 />
                             </a>
                         ))}
