@@ -4,8 +4,6 @@ import { interests, mentoredAt, professionalExperience, teammateSkills, techSkil
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import me from '../public/images/me.png'
-import meWithLion from '../public/images/me-lion.jpg'
 import Accordian from './accordian';
 import Role from './role';
 import InterestPill from './interestPill';
@@ -32,7 +30,7 @@ const Page = () => {
             <div className="flex h-[85vh] text-black justify-center items-center">
                 <div className="m-auto flex flex-col justify-center text-center">
                     <Image
-                        src={me}
+                        src="/images/me.png"
                         alt="profile picture"
                         width={200}
                         className='m-auto'
@@ -100,7 +98,7 @@ const Page = () => {
                 <div className="p-10 flex flex-col gap-4 transition-all bg-white-transparent rounded-4xl">
                     <div className='flex flex-col md:flex-row gap-6 items-center'>
                         <Image
-                            src={meWithLion}
+                            src="/images/meWithLion.png"
                             alt="Me and my cat"
                             width={150}
                         />

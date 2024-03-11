@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "dnntrn.github.io",
   "version": "0.1.0",
   "homepage": "https://dnntrn.github.io",
   "private": true,
@@ -21,7 +21,6 @@
     "eslint-config-next": "13.4.8",
     "framer-motion": "^10.18.0",
     "next": "^14.0.4",
-    "node": "^21.7.1",
     "postcss": "8.4.25",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -36,7 +35,8 @@
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "eslintConfig": {
     "extends": [

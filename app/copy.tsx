@@ -1,43 +1,43 @@
 import { faBook, faMusic } from "@fortawesome/free-solid-svg-icons";
-import intermittentMesaging from '../public/images/projects/intermittent-messaging.png'
-import galley from '../public/images/projects/galley.png'
-import checkout from '../public/images/projects/checkout.png'
-import intakeForm from '../public/images/projects/intake-form.png'
-import storefront from '../public/images/projects/storefront.png'
-import fraudFlow from '../public/images/projects/fraud-flow.png'
-import idTech from '../public/images/mentorship/id-tech-camps.png'
-import winc from '../public/images/mentorship/winc-logo.png'
-import codeInPlace from '../public/images/mentorship/stanford-code-in-place.jpeg'
-import nycWomenInStem from '../public/images/mentorship/nyc-women-in-stem.png'
+// import intermittentMesaging from '../public/images/projects/intermittent-messaging.png'
+// import galley from '../public/images/projects/galley.png'
+// import checkout from '../public/images/projects/checkout.png'
+// import intakeForm from '../public/images/projects/intake-form.png'
+// import storefront from '../public/images/projects/storefront.png'
+// import fraudFlow from '../public/images/projects/fraud-flow.png'
+// import idTech from '../public/images/mentorship/id-tech-camps.png'
+// import winc from '../public/images/mentorship/winc-logo.png'
+// import codeInPlace from '../public/images/mentorship/stanford-code-in-place.jpeg'
+// import nycWomenInStem from '../public/images/mentorship/nyc-women-in-stem.png'
 
 export const projects = [
     {
-        image: intermittentMesaging,
+        image: "/images/projects/intermittent-messaging.png",
         title: "Intermittent Messaging",
         description: "In-app messaging between providers and patients",
     },
     {
-        image: checkout,
+        image: "/images/projects/checkout.png",
         title: "New Cart & Checkout Flow",
         description: "New checkout experience that supports multiple carts and checkout options",
     },
     {
-        image: storefront,
+        image: "/images/projects/storefront.png",
         title: "Premade Meals Storefront",
         description: "Marketplace displaying multiple vendors for premade meals w/ different delivery dates and delivery minimums",
     },
     {
-        image: intakeForm,
+        image: "/images/projects/intake-form.png",
         title: "Intake Forms",
         description: "Intake forms to collect initial health information about our patients during sign up",
     },
     {
-        image: galley,
+        image: "/images/projects/galley.png",
         title: "Design System (Galley)",
         description: "Spearheaded our effort to move from MUI to a custom design system",
     },
     {
-        image: fraudFlow,
+        image: "/images/projects/fraud-flow.png",
         title: "Fraud Flow",
         description: "Revamped the in-app fraud flow for users flagged as potential bad actors",
     },
@@ -103,22 +103,22 @@ export const professionalExperience = [
 
 export const mentoredAt = [
     {
-        src: winc,
+        src: "/images/mentorship/winc-logo.png",
         alt: "NYU Women in Computing",
         link: "https://nyuwinc.org/"
     },
     {
-        src: idTech,
+        src: "/images/mentorship/id-tech-camps.png",
         alt: "ID tech camps",
         link: "https://www.idtech.com/"
     },
     {
-        src: codeInPlace,
+        src: "/images/mentorship/stanford-code-in-place.jpeg",
         alt: "Stanford Code in Place",
         link: "https://codeinplace.stanford.edu/"
     },
     {
-        src: nycWomenInStem,
+        src: "/images/mentorship/nyc-women-in-stem.png",
         alt: "NYC Women in Stem",
         link: "https://www.nycwomeninstem.org/"
     },

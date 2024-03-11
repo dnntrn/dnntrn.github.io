@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import Image from "next/image";
 
 type Props = {
-    image: StaticImageData;
+    image: string;
     title: string;
     description: string;
     details?: string;
