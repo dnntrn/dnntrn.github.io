@@ -2,7 +2,8 @@
  
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/my-website",
+  output: "export",
+  basePath: "/dnntrn.github.io",
   reactStrictMode: true,
 }
  
