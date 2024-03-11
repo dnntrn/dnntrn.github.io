@@ -4,6 +4,9 @@
 const nextConfig = {
   output: "export",
   basePath: "/dnntrn.github.io",
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
 }
  
