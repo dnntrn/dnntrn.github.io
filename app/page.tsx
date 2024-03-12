@@ -3,11 +3,12 @@ import Chip from './chip'
 import { interests, mentoredAt, professionalExperience, teammateSkills, techSkills } from "./copy";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
 import Accordian from './accordian';
 import Role from './role';
 import InterestPill from './interestPill';
-import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient'
+import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient';
+import Image from "next/image";
+
 
 const Page = () => {
   return (
@@ -32,8 +33,10 @@ const Page = () => {
                     <Image
                         src="/images/me.png"
                         alt="profile picture"
-                        width={200}
-                        className='m-auto'
+                        width="200"
+                        height="0"
+                        sizes="100vw"
+                        className="h-auto m-auto"
                     />
                     <h1 className="text-center font-brittany text-t-mobile text-[4.5rem] md:text-[5rem]">Hi! I&apos;m Deanna.</h1>
                     <p className="text-[1.1rem] md:text-[1.3rem] w-[90%] m-auto">
@@ -100,7 +103,9 @@ const Page = () => {
                         <Image
                             src="/images/me-lion.jpg"
                             alt="Me and my cat"
-                            width={150}
+                            width="150"
+                            height="0"
+                            sizes="100vw"
                         />
                         <div className='flex flex-col gap-4'>
                             <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as &quot;just an elective&quot;, and soon became my major and passion.</p>
@@ -116,8 +121,9 @@ const Page = () => {
                                 <Image
                                     src={org.src}
                                     alt={org.alt}
-                                    width={200}
-                                    height={200}
+                                    width="200"
+                                    height="0"
+                                    sizes="100vw"
                                 />
                             </a>
                         ))}
