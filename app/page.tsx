@@ -14,10 +14,10 @@ const Page = () => {
         enter: { opacity: 1, y: 0, x: 0 },
     }
     const homeComponents = [
-        <Intro />,
-        <ProfessionalExperience />,
-        <Skills />,
-        <Bio />
+        <Intro key="intro" />,
+        <ProfessionalExperience key="experience" />,
+        <Skills key="skills" />,
+        <Bio key="bio" />
     ]
     return (
         <div className="font-roboto font-[100]">
