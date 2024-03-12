@@ -31,8 +31,8 @@ const Page = () => {
             <div className="flex h-[85vh] text-black justify-center items-center">
                 <div className="m-auto flex flex-col justify-center text-center">
                     <Image
-                        src="/images/me.png"
-                        alt="profile picture"
+                        src="/images/profile.png"
+                        alt="profile"
                         width="200"
                         height="0"
                         sizes="100vw"
