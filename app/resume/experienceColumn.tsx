@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Section from './section'
-import Role from '../role'
+import Role from '../components/role'
 import { professionalExperience } from '../copy'
 
 const ExperienceColumn: NextPage = () => {

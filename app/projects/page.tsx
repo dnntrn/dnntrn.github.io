@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import { projects } from '../copy'
-import Project from '../project'
+import Project from '../components/project'
 
 const Projects: NextPage = () => {
   return (

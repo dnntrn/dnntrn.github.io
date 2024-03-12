@@ -1,7 +1,7 @@
 body {
-    @apply pb-10 bg-[#F2D0D4]
+    @apply pb-10;
 }
-
+/* bg-[#F2D0D4] */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +22,7 @@ p {
     @apply font-roboto
 }
 
+
 @layer components {
     .resume-name {
         @apply font-poppins uppercase text-[33px] tracking-wider font-bold text-[#C45B52];
@@ -41,5 +42,110 @@ p {
     .resume-description {
         @apply font-lato text-[13px] tracking-wider;
     }
+
+
+    /* @property --x {
+        syntax: '<percentage>';
+        inherits: false;
+        initial-value: 0%;
+      } */
+
+    @property --x{
+        syntax: '<percentage>';
+        inherits: false;
+        initial-value: 10%;
+    }
+    @property --y{
+        syntax: '<percentage>';
+        inherits: false;
+        initial-value: 0%;
+    }
+
+    @property --c {
+        syntax: '<color>';
+        inherits: false;
+        initial-value: #f2c0bd;
+    }
+
+    body {
+        --x:10%;
+        --y:0%;
+        background: #F2D0D4 radial-gradient(farthest-corner ellipse at var(--x) 0%, var(--c) 0%, var(--c) 8%, var(--c) 25%, #F2D0D4 40%, #F2D0D4 62.5%);
+        animation: move 40s ease infinite alternate;
+        -webkit-animation: move 40s ease infinite alternate;
+        -moz-animation: move 40s ease infinite alternate;
+        background-size: cover;
+
+    }
+
+    @keyframes move {
+        0% {
+            --x:10%;
+            --y:0%;
+            --c: #f2c0bd;
+        }
+        50% {
+            --c: #EED0F2
+        }
+        100% {
+            --x:80%;
+            --y:100%;
+            --c: #F2D0E5;
+        }
+    }
+    
     
 }
+
+/* body {
+        background: linear-gradient(to bottom, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #e5d6f0, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #e5d6f0, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4);
+        background-size: 4000% 4000%;
+    
+        -webkit-animation: backgroundGradient 60s ease infinite;
+        -moz-animation: backgroundGradient 60s ease infinite;
+        animation: backgroundGradient 60s ease infinite;
+    }
+    
+    @-webkit-keyframes backgroundGradient {
+        0%{background-position:86% 0%}
+        50%{background-position:15% 100%}
+        100%{background-position:86% 0%}
+    }
+    @-moz-keyframes backgroundGradient {
+        0%{background-position:86% 0%}
+        50%{background-position:15% 100%}
+        100%{background-position:86% 0%}
+    }
+    @keyframes backgroundGradient {
+        0%{background-position:86% 0%}
+        50%{background-position:15% 100%}
+        100%{background-position:86% 0%}
+    } */
+
+
+
+
+/* .intro {
+    background: linear-gradient(to bottom, #f2d0dd, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #f2d0dd, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #f2d0dd, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4);
+    background-size: 4000% 4000%;
+
+    -webkit-animation: backgroundGradient 60s ease infinite;
+    -moz-animation: backgroundGradient 60s ease infinite;
+    animation: backgroundGradient 60s ease infinite;
+}
+
+@-webkit-keyframes backgroundGradient {
+    0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+}
+@-moz-keyframes backgroundGradient {
+    0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+}
+@keyframes backgroundGradient {
+    0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+} */
