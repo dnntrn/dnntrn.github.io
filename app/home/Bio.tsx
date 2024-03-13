@@ -17,6 +17,7 @@ const Bio = () => {
                         width="150"
                         height="0"
                         sizes="100vw"
+                        title="Photo credit to Daston Arman"
                     />
                     <div className='flex flex-col gap-4'>
                         <p> I stumbled into coding as a freshman at NYU, and I&apos;ve been hooked ever since. Computer science started as &quot;just an elective&quot;, and soon became my major and passion.</p>
