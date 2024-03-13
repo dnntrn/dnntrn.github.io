@@ -684,6 +684,12 @@ body {
 .h-full {
   height: 100%;
 }
+.h-1\/2 {
+  height: 50%;
+}
+.h-1\/4 {
+  height: 25%;
+}
 .max-h-0 {
   max-height: 0px;
 }
@@ -714,6 +720,9 @@ body {
 }
 .w-full {
   width: 100%;
+}
+.w-auto {
+  width: auto;
 }
 .max-w-\[26\%\] {
   max-width: 26%;
@@ -1150,6 +1159,14 @@ ul {
 
   .md\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-2 {

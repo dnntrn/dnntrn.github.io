@@ -1,6 +1,7 @@
 import { faBook, faMusic } from "@fortawesome/free-solid-svg-icons";
 import IntermittentMesaging from "./work/intermittentMessaging";
 import CartAndCheckout from "./work/cartAndCheckout";
+import Storefront from "./work/storefront";
 
 export enum ProjectIds {
     INTERMITTENT_MESSAGING = "intermittent_messaging",
@@ -53,7 +54,7 @@ export const projects = [
 export const projectsToContentMap = new Map([
     [ProjectIds.INTERMITTENT_MESSAGING, <IntermittentMesaging />],
     [ProjectIds.CART_AND_CHECKOUT, <CartAndCheckout />],
-    [ProjectIds.STOREFRONT, <IntermittentMesaging />],
+    [ProjectIds.STOREFRONT, <Storefront />],
     [ProjectIds.INTAKE_FORMS, <IntermittentMesaging />],
     [ProjectIds.DESIGN_SYSTEM, <IntermittentMesaging />],
     [ProjectIds.FRAUD_FLOW, <IntermittentMesaging />],
