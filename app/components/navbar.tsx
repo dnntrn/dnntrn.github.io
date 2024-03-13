@@ -35,17 +35,17 @@ const Navbar = () => {
       return () => {
          window.removeEventListener("scroll", onScroll);
       }
-    }, []);
+    }, [onScroll]);
 
     return (
         <nav>
-            <div className={clsx(scrollY > 50 ? "bg-[#F2D0D4]" : "bg-transparent", "transition-all navContainer w-90 p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 -ml-[140px] top-4 z-[100]")}>
+            <div className={clsx(scrollY > 50 ? "bg-[#F2D0D4]" : "bg-transparent", "transition-all p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 -ml-[115px] top-4 z-[100]")}>
                 <ul className="flex saturate-150 justify-between w-full list-none">
                     {navItems.map(({name, path}) => {
                         return (
-                            <li className="py-1 px-4">
+                            <li className="py-1" key={path}>
                                 <Link 
-                                    className={`px-4 py-2 rounded-md text-sm lg:text-base relative no-underline duration-300 ease-in`}
+                                    className={`py-2 px-4 rounded-md text-sm lg:text-base relative no-underline duration-300 ease-in`}
                                     href={path}>
                                         {name}
                                         {path === pathname && (
