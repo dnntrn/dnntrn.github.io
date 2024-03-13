@@ -1,61 +1,61 @@
 import { faBook, faMusic } from "@fortawesome/free-solid-svg-icons";
-// import intermittentMesaging from '../public/images/projects/intermittent-messaging.png'
-// import galley from '../public/images/projects/galley.png'
-// import checkout from '../public/images/projects/checkout.png'
-// import intakeForm from '../public/images/projects/intake-form.png'
-// import storefront from '../public/images/projects/storefront.png'
-// import fraudFlow from '../public/images/projects/fraud-flow.png'
-// import idTech from '../public/images/mentorship/id-tech-camps.png'
-// import winc from '../public/images/mentorship/winc-logo.png'
-// import codeInPlace from '../public/images/mentorship/stanford-code-in-place.jpeg'
-// import nycWomenInStem from '../public/images/mentorship/nyc-women-in-stem.png'
+import IntermittentMesaging from "./work/intermittentMessaging";
+
+export enum ProjectIds {
+    INTERMITTENT_MESSAGING = "intermittent_messaging",
+    CART_AND_CHECKOUT = "cart_and_checkout",
+    STOREFRONT = "storefront",
+    INTAKE_FORMS = "intake_forms",
+    DESIGN_SYSTEM = "design_system",
+    FRAUD_FLOW = "fraud_flow",
+}
 
 export const projects = [
     {
-        id: 0,
+        id: ProjectIds.INTERMITTENT_MESSAGING,
         image: "/images/projects/intermittent-messaging.png",
         title: "Intermittent Messaging",
         description: "In-app messaging between providers and patients",
     },
     {
-        id: 1,
+        id: ProjectIds.CART_AND_CHECKOUT,
         image: "/images/projects/checkout.png",
         title: "New Cart & Checkout Flow",
         description: "New checkout experience that supports multiple carts and checkout options",
     },
     {
-        id: 2,
+        id: ProjectIds.STOREFRONT,
         image: "/images/projects/storefront.png",
         title: "Premade Meals Storefront",
         description: "Marketplace displaying multiple vendors for premade meals w/ different delivery dates and delivery minimums",
     },
     {
-        id: 3,
+        id: ProjectIds.INTAKE_FORMS,
         image: "/images/projects/intake-form.png",
         title: "Intake Forms",
         description: "Intake forms to collect initial health information about our patients during sign up",
     },
     {
-        id: 4,
+        id: ProjectIds.DESIGN_SYSTEM,
         image: "/images/projects/galley.png",
         title: "Design System (Galley)",
         description: "Spearheaded our effort to move from MUI to a custom design system",
     },
     {
-        id: 5,
+        id: ProjectIds.FRAUD_FLOW,
         image: "/images/projects/fraud-flow.png",
         title: "Fraud Flow",
         description: "Revamped the in-app fraud flow for users flagged as potential bad actors",
     },
 ]
 
-export const projectsMap = new Map([
-    [0, projects[0]],
-    [1, projects[1]],
-    [2, projects[2]],
-    [3, projects[3]],
-    [4, projects[4]],
-    [5, projects[5]],
+export const projectsToContentMap = new Map([
+    [ProjectIds.INTERMITTENT_MESSAGING, <IntermittentMesaging />],
+    [ProjectIds.CART_AND_CHECKOUT, <IntermittentMesaging />],
+    [ProjectIds.STOREFRONT, <IntermittentMesaging />],
+    [ProjectIds.INTAKE_FORMS, <IntermittentMesaging />],
+    [ProjectIds.DESIGN_SYSTEM, <IntermittentMesaging />],
+    [ProjectIds.FRAUD_FLOW, <IntermittentMesaging />],
 ]);
 
 export const techSkills = [

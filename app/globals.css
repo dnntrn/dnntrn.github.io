@@ -1,13 +1,13 @@
 body {
     @apply pb-10 min-h-full;
 }
-/* bg-[#F2D0D4] */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 section {
-    @apply max-w-[90%] lg:max-w-[1024px] m-auto;
+    @apply max-w-[90%] lg:max-w-[1024px] m-auto w-full;
 }
 
 a {
@@ -18,8 +18,8 @@ em {
     @apply text-t-mobile not-italic font-bold
 }
 
-p {
-    @apply font-roboto
+p, ul {
+    @apply font-roboto font-light
 }
 
 
@@ -42,13 +42,6 @@ p {
     .resume-description {
         @apply font-lato text-[13px] tracking-wider;
     }
-
-
-    /* @property --x {
-        syntax: '<percentage>';
-        inherits: false;
-        initial-value: 0%;
-      } */
 
     @property --x{
         syntax: '<percentage>';
@@ -94,58 +87,8 @@ p {
         }
     }
     
-    
-}
-
-/* body {
-        background: linear-gradient(to bottom, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #e5d6f0, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #e5d6f0, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4);
-        background-size: 4000% 4000%;
-    
-        -webkit-animation: backgroundGradient 60s ease infinite;
-        -moz-animation: backgroundGradient 60s ease infinite;
-        animation: backgroundGradient 60s ease infinite;
+    .caption {
+        @apply font-lato text-t-mobile;
     }
     
-    @-webkit-keyframes backgroundGradient {
-        0%{background-position:86% 0%}
-        50%{background-position:15% 100%}
-        100%{background-position:86% 0%}
-    }
-    @-moz-keyframes backgroundGradient {
-        0%{background-position:86% 0%}
-        50%{background-position:15% 100%}
-        100%{background-position:86% 0%}
-    }
-    @keyframes backgroundGradient {
-        0%{background-position:86% 0%}
-        50%{background-position:15% 100%}
-        100%{background-position:86% 0%}
-    } */
-
-
-
-
-/* .intro {
-    background: linear-gradient(to bottom, #f2d0dd, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #f2d0dd, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4, #f2d0d4, #f2d0d4, #f2d0dd, #f2d0d4, #f2d0d4, #f2d0d4, #f2c0bd, #f2d0d4);
-    background-size: 4000% 4000%;
-
-    -webkit-animation: backgroundGradient 60s ease infinite;
-    -moz-animation: backgroundGradient 60s ease infinite;
-    animation: backgroundGradient 60s ease infinite;
 }
-
-@-webkit-keyframes backgroundGradient {
-    0%{background-position:86% 0%}
-    50%{background-position:15% 100%}
-    100%{background-position:86% 0%}
-}
-@-moz-keyframes backgroundGradient {
-    0%{background-position:86% 0%}
-    50%{background-position:15% 100%}
-    100%{background-position:86% 0%}
-}
-@keyframes backgroundGradient {
-    0%{background-position:86% 0%}
-    50%{background-position:15% 100%}
-    100%{background-position:86% 0%}
-} */

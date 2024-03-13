@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const Navbar = () => {
-    
     return (
         <nav>
             <div className="w-90 p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 -ml-[140px] top-4 z-[100] bg-white-transparent">
@@ -12,8 +11,8 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="py-1 px-4">
-                        <Link href="/projects">
-                            Projects
+                        <Link href="/work">
+                            Work
                         </Link>
                     </li>
                     <li className="py-1 px-4">

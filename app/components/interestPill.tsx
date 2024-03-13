@@ -9,7 +9,7 @@ type Props = {
 }
 const InterestPill = ({ icon, title, subtitle, link }: Props) => {
   return (
-    <a href={link} target="_blank" className='bg-white p-6 items-center rounded-[40px] flex gap-4 font-lato'>
+    <a href={link} target="_blank" className='bg-white p-6 items-center rounded-[40px] flex gap-4'>
         <FontAwesomeIcon icon={icon} size="2xl" className="text-dusty-pink"/>
         <div>
             <p className="text-t-mobile font-bold">{title}</p>

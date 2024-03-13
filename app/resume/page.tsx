@@ -34,7 +34,7 @@ const Resume: NextPage = () => {
             initial="hidden"
             animate="enter"
             transition={{ type: "linear", delay: .6}}
-            onClick={downloadPDF} className='hover:underline font-lato text-t-mobile'
+            onClick={downloadPDF} className='hover:underline text-t-mobile'
             >
               Download PDF
         </motion.button>
