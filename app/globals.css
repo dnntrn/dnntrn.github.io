@@ -75,6 +75,11 @@ ul {
 
     }
 
+    /* .navContainer {
+        background: var(--c);
+        animation: changeNavBackground 40s ease infinite alternate;
+    } */
+
     @keyframes move {
         0% {
             --x:10%;
@@ -90,6 +95,18 @@ ul {
             --c: #F2D0E5;
         }
     }
+
+    /* @keyframes changeNavBackground {
+        0% {
+            --c: #f2c0bd;
+        }
+        50% {
+            --c: #EED0F2
+        }
+        100% {
+            --c: #F2D0E5;
+        }
+    } */
     
     .caption {
         @apply font-lato text-t-mobile;
