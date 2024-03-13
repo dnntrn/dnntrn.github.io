@@ -5,7 +5,7 @@ import Chip from '../components/chip';
 const IntakeForms: NextPage = () => {
   return (
     <div>
-        <h1 className='font-poppins text-t-mobile font-bold text-[1.5rem] md:text-[2.2rem] text-center mt-20 mb-14'>Intake Forms</h1>
+        <h1 className='font-poppins text-t-mobile font-bold text-[1.5rem] md:text-[2.2rem] text-center mt-10 md:mt-20 mb-14'>Intake Forms</h1>
         <div className="flex flex-col gap-14">
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Background</h2>
@@ -49,7 +49,7 @@ const IntakeForms: NextPage = () => {
 
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Tech used</h2>
-                <div className="flex gap-2">
+                <div className="flex gap-2 flex-wrap">
                     <Chip text='React' />
                     <Chip text='Typescript' />
                     <Chip text='React Query' />

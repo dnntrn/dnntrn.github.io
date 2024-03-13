@@ -5,7 +5,7 @@ import Chip from '../components/chip';
 const Storefront: NextPage = () => {
   return (
     <div>
-        <h1 className='font-poppins text-t-mobile font-bold text-[1.5rem] md:text-[2.2rem] text-center mt-20 mb-14'>Premade Meals Storefront</h1>
+        <h1 className='font-poppins text-t-mobile font-bold text-[1.5rem] md:text-[2.2rem] text-center mt-10 md:mt-20 mb-14'>Premade Meals Storefront</h1>
         <div className="flex flex-col gap-14">
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Background</h2>
@@ -46,14 +46,14 @@ const Storefront: NextPage = () => {
                 />
                 <p>Meals were organized into categories but we received the data without labeling structure from the vendors.</p>
                 <p>Meals were displayed in scrollable shovelers that needed to be truncated and paginated.</p>
-                <div className="grid md: grid-cols-1 md:grid-cols-2">
+                <div className="grid md: grid-cols-1 md:grid-cols-2 gap-4 my-6">
                     <Image
                         src="/images/projects/free-shipping.png"
                         alt="vendors"
                         width="0"
                         height="0"
                         sizes="100vw"
-                        className="w-auto h-1/2 m-auto"
+                        className="w-auto md:h-1/2 m-auto"
                     />
                     <Image
                         src="/images/projects/delivery-note-territory.png"
@@ -61,7 +61,7 @@ const Storefront: NextPage = () => {
                         width="0"
                         height="0"
                         sizes="100vw"
-                        className="w-auto h-1/2 m-auto"
+                        className="w-auto md:h-1/2 m-auto"
                     />
                     <Image
                         src="/images/projects/order-size-date.png"
@@ -69,7 +69,7 @@ const Storefront: NextPage = () => {
                         width="0"
                         height="0"
                         sizes="100vw"
-                        className="w-auto h-1/2 m-auto"
+                        className="w-auto md:h-1/2 m-auto"
                     />
                     <Image
                         src="/images/projects/delivery-note-daily-harvest.png"
@@ -77,7 +77,7 @@ const Storefront: NextPage = () => {
                         width="0"
                         height="0"
                         sizes="100vw"
-                        className="w-auto h-1/4 m-auto"
+                        className="w-auto md:h-1/4 m-auto"
                     />
                 </div>
                 <p>

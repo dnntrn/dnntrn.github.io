@@ -4,6 +4,7 @@ import CartAndCheckout from "./work/cartAndCheckout";
 import Storefront from "./work/storefront";
 import IntakeForms from "./work/intakeForms";
 import DesignSystem from "./work/designSystem";
+import FraudFlow from "./work/fraudFlow";
 
 export enum ProjectIds {
     INTERMITTENT_MESSAGING = "intermittent_messaging",
@@ -59,7 +60,7 @@ export const projectsToContentMap = new Map([
     [ProjectIds.STOREFRONT, <Storefront key={ProjectIds.STOREFRONT} />],
     [ProjectIds.INTAKE_FORMS, <IntakeForms key={ProjectIds.INTAKE_FORMS} />],
     [ProjectIds.DESIGN_SYSTEM, <DesignSystem key={ProjectIds.DESIGN_SYSTEM} />],
-    [ProjectIds.FRAUD_FLOW, <IntermittentMesaging key={ProjectIds.FRAUD_FLOW} />],
+    [ProjectIds.FRAUD_FLOW, <FraudFlow key={ProjectIds.FRAUD_FLOW} />],
 ]);
 
 export const techSkills = [
