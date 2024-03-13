@@ -22,6 +22,10 @@ p, ul {
     @apply font-roboto font-light
 }
 
+ul {
+    @apply list-disc
+}
+
 
 @layer components {
     .resume-name {

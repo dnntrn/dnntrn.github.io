@@ -601,21 +601,13 @@ body {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .-ml-\[140px\] {
   margin-left: -140px;
@@ -628,6 +620,9 @@ body {
 }
 .mb-12 {
   margin-bottom: 3rem;
+}
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -668,12 +663,6 @@ body {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
 .inline {
   display: inline;
 }
@@ -704,14 +693,14 @@ body {
 .min-h-\[16rem\] {
   min-height: 16rem;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-6 {
   width: 1.5rem;
 }
 .w-\[\.625rem\] {
   width: .625rem;
-}
-.w-\[80\%\] {
-  width: 80%;
 }
 .w-\[80px\] {
   width: 80px;
@@ -744,6 +733,9 @@ body {
 }
 .list-disc {
   list-style-type: disc;
+}
+.list-none {
+  list-style-type: none;
 }
 .auto-rows-max {
   grid-auto-rows: max-content;
@@ -778,6 +770,9 @@ body {
 .gap-10 {
   gap: 2.5rem;
 }
+.gap-14 {
+  gap: 3.5rem;
+}
 .gap-2 {
   gap: 0.5rem;
 }
@@ -789,12 +784,6 @@ body {
 }
 .gap-6 {
   gap: 1.5rem;
-}
-.gap-20 {
-  gap: 5rem;
-}
-.gap-14 {
-  gap: 3.5rem;
 }
 .gap-x-2 {
   column-gap: 0.5rem;
@@ -1031,6 +1020,10 @@ p, ul {
   font-weight: 300;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 
 .after\:absolute::after {
   content: var(--tw-content);
@@ -1145,6 +1138,18 @@ p, ul {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:grid-cols-2 {

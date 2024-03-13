@@ -1,7 +1,5 @@
 'use client'
 import type { NextPage } from 'next'
-import { universialMotionVariant } from '../motion';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Chip from '../components/chip';
 
@@ -20,7 +18,7 @@ const IntermittentMesaging: NextPage = () => {
                     width="0"
                     height="0"
                     sizes="100vw"
-                    className="w-[80%] h-auto m-auto"
+                    className="w-full md:w-[80%] h-auto m-auto"
                 />
             </section>
             
