@@ -53,12 +53,12 @@ export const projects = [
 ]
 
 export const projectsToContentMap = new Map([
-    [ProjectIds.INTERMITTENT_MESSAGING, <IntermittentMesaging />],
-    [ProjectIds.CART_AND_CHECKOUT, <CartAndCheckout />],
-    [ProjectIds.STOREFRONT, <Storefront />],
-    [ProjectIds.INTAKE_FORMS, <IntakeForms />],
-    [ProjectIds.DESIGN_SYSTEM, <IntermittentMesaging />],
-    [ProjectIds.FRAUD_FLOW, <IntermittentMesaging />],
+    [ProjectIds.INTERMITTENT_MESSAGING, <IntermittentMesaging key={ProjectIds.INTERMITTENT_MESSAGING} />],
+    [ProjectIds.CART_AND_CHECKOUT, <CartAndCheckout key={ProjectIds.CART_AND_CHECKOUT} />],
+    [ProjectIds.STOREFRONT, <Storefront key={ProjectIds.STOREFRONT} />],
+    [ProjectIds.INTAKE_FORMS, <IntakeForms key={ProjectIds.INTAKE_FORMS} />],
+    [ProjectIds.DESIGN_SYSTEM, <IntermittentMesaging key={ProjectIds.DESIGN_SYSTEM} />],
+    [ProjectIds.FRAUD_FLOW, <IntermittentMesaging key={ProjectIds.FRAUD_FLOW} />],
 ]);
 
 export const techSkills = [
