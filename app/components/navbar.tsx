@@ -38,7 +38,7 @@ const Navbar = () => {
     }, [onScroll]);
 
     return (
-        <nav>
+        <nav className="print:hidden">
             <div className={clsx(scrollY > 50 ? "bg-[#F2D0D4]" : "bg-transparent", "transition-all p-[10px] font-roboto font-[100] text-black rounded-4xl mb-12 fixed left-1/2 -ml-[115px] top-4 z-[100]")}>
                 <ul className="flex saturate-150 justify-between w-full list-none">
                     {navItems.map(({name, path}) => {

@@ -3,8 +3,8 @@ import type { NextPage } from 'next'
 import { ProjectIds, projects, projectsToContentMap } from '../copy'
 import ProjectPreview from './projectPreview'
 import { universialMotionVariant } from '../motion';
-import { AnimatePresence, motion, useScroll } from 'framer-motion';
-import { useCallback, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useCallback } from 'react';
 import { usePathname, useSearchParams, useRouter } from 'next/navigation';
 
 const Work: NextPage = () => {
