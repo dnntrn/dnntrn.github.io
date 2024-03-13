@@ -3,6 +3,7 @@ import IntermittentMesaging from "./work/intermittentMessaging";
 import CartAndCheckout from "./work/cartAndCheckout";
 import Storefront from "./work/storefront";
 import IntakeForms from "./work/intakeForms";
+import DesignSystem from "./work/designSystem";
 
 export enum ProjectIds {
     INTERMITTENT_MESSAGING = "intermittent_messaging",
@@ -41,7 +42,7 @@ export const projects = [
     {
         id: ProjectIds.DESIGN_SYSTEM,
         image: "/images/projects/galley.png",
-        title: "Design System (Galley)",
+        title: "Design System",
         description: "Spearheaded our effort to move from MUI to a custom design system",
     },
     {
@@ -57,7 +58,7 @@ export const projectsToContentMap = new Map([
     [ProjectIds.CART_AND_CHECKOUT, <CartAndCheckout key={ProjectIds.CART_AND_CHECKOUT} />],
     [ProjectIds.STOREFRONT, <Storefront key={ProjectIds.STOREFRONT} />],
     [ProjectIds.INTAKE_FORMS, <IntakeForms key={ProjectIds.INTAKE_FORMS} />],
-    [ProjectIds.DESIGN_SYSTEM, <IntermittentMesaging key={ProjectIds.DESIGN_SYSTEM} />],
+    [ProjectIds.DESIGN_SYSTEM, <DesignSystem key={ProjectIds.DESIGN_SYSTEM} />],
     [ProjectIds.FRAUD_FLOW, <IntermittentMesaging key={ProjectIds.FRAUD_FLOW} />],
 ]);
 
