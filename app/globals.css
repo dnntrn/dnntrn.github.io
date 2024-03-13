@@ -1,5 +1,5 @@
 body {
-    @apply pb-10;
+    @apply pb-10 min-h-full;
 }
 /* bg-[#F2D0D4] */
 @tailwind base;

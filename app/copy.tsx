@@ -12,36 +12,51 @@ import { faBook, faMusic } from "@fortawesome/free-solid-svg-icons";
 
 export const projects = [
     {
+        id: 0,
         image: "/images/projects/intermittent-messaging.png",
         title: "Intermittent Messaging",
         description: "In-app messaging between providers and patients",
     },
     {
+        id: 1,
         image: "/images/projects/checkout.png",
         title: "New Cart & Checkout Flow",
         description: "New checkout experience that supports multiple carts and checkout options",
     },
     {
+        id: 2,
         image: "/images/projects/storefront.png",
         title: "Premade Meals Storefront",
         description: "Marketplace displaying multiple vendors for premade meals w/ different delivery dates and delivery minimums",
     },
     {
+        id: 3,
         image: "/images/projects/intake-form.png",
         title: "Intake Forms",
         description: "Intake forms to collect initial health information about our patients during sign up",
     },
     {
+        id: 4,
         image: "/images/projects/galley.png",
         title: "Design System (Galley)",
         description: "Spearheaded our effort to move from MUI to a custom design system",
     },
     {
+        id: 5,
         image: "/images/projects/fraud-flow.png",
         title: "Fraud Flow",
         description: "Revamped the in-app fraud flow for users flagged as potential bad actors",
     },
 ]
+
+export const projectsMap = new Map([
+    [0, projects[0]],
+    [1, projects[1]],
+    [2, projects[2]],
+    [3, projects[3]],
+    [4, projects[4]],
+    [5, projects[5]],
+]);
 
 export const techSkills = [
     "React",
