@@ -64,7 +64,7 @@ const Role = ({ isCondensed, title, company, companyWebsite, location, date, com
             </div>
             {companyDescription && <p className="mt-2 mb-1">{companyDescription}</p>}
             {keyTechnologies && <p>Key Technologies: {keyTechnologies.join(", ")}</p>}
-            <ul className="mt-3 list-disc ml-10">
+            <ul className="mt-3 list-disc ml-6 md:ml-10">
                 {responsibilities.map((r) => (
                     <li className="mb-2" key={r}>{r}</li>
                 ))}

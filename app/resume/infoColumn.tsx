@@ -7,7 +7,7 @@ import { contacts } from '../copy';
 
 const InfoColumn: NextPage = () => {
   return (
-    <div className="bg-[#FDF1F2] p-3 w-fit max-w-[26%]">
+    <div className="bg-[#FDF1F2] p-3 w-fit lg:max-w-[26%]">
         <h1 className="resume-name">Deanna Tran</h1>
         <div className="resume-title mt-2 mb-6">Software Engineer</div>
         <div className="flex flex-col gap-4 resume-description">

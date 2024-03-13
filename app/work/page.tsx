@@ -26,7 +26,7 @@ const Work: NextPage = () => {
 
 
   return (
-    <div className='mt-10'>
+    <div className='mt-10 min-h-[100vh]'>
         <AnimatePresence>
           {!selectedProject && (
               <motion.section variants={universialMotionVariant} exit="exit">

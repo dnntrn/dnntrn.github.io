@@ -1,6 +1,5 @@
 'use client'
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import InfoColumn from './infoColumn'
 import ExperienceColumn from './experienceColumn'
 import { motion } from 'framer-motion'
@@ -21,13 +20,7 @@ const Resume: NextPage = () => {
     });
   }
   return (
-    <div>
-      <Head>
-        <title>Deanna Tran Resume</title>
-        <meta name="description" content="Deanna Tran Resume" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <div className="max-w-[90%] m-auto">
       <div className='max-w-[960px] m-auto'>
         <motion.button
             variants={universialMotionVariant}
