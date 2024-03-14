@@ -9,7 +9,7 @@ const IntermittentMesaging: NextPage = () => {
         <div className="flex flex-col gap-14">
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Background</h2>
-                <p>This project was built for Season Health. Season&apos;s users were keeping in touch with our providers through email. We wanted to build an in-app messaging option to push our users to use our platform and to make management easier on our dietitians.</p>
+                <p>This project was built for Season Health. Season&apos;s users were previously contacting our providers through email. We wanted to build an in-app messaging option to push our users to use our platform and to make management easier for our dietitians.</p>
                 <p className="caption text-center my-6">NOTE: I could not get screenshots of this work. This is a mockup.</p>
                 <Image
                     src="/images/projects/intermittent-messaging.png"
@@ -22,17 +22,16 @@ const IntermittentMesaging: NextPage = () => {
             </section>
             
             <section>
-                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold'>highlights of the hard stuff:</h2>
+                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold'>Difficult Tasks</h2>
                 <ul className='list-disc ml-10 flex flex-col gap-1'>
                     <li>
-                        <span className="font-bold">Showing A Lot of Messages:</span> users may have a long message history. 
-                        We had to make sure that this message history was available but that 
-                        the most recent unviewed message was highlighted first
+                        <span className="font-bold">Showing A Lot of Messages:</span> Users may have a long message history. 
+                        We needed to make sure that this message history was available but 
+                        the most recent unviewed message was displayed first.
                     </li>
                     <li>
-                        <span className="font-bold">Structuring Data:</span> we had to think carefully about how the backend would return data 
-                        to the frontend and how the frontend would be structured since we had multiple components 
-                        that needed similar data (last message sent, unread state, etc)
+                        <span className="font-bold">Structuring Data:</span> Since this feature consisted of multiple components 
+                        that had shared data (last message sent, unread state, etc), we had to think carefully about the structure of the data returned from the backend and the structure of the frontend data.
                     </li>
                 </ul>
             </section>
@@ -43,6 +42,9 @@ const IntermittentMesaging: NextPage = () => {
                 <p>
                     Providers can view and messages in our EHR while patients can view and send messages in-app. 
                     Communication between our users and providers improved greatly, making it easier for us to collect health data for our metrics.
+                    This was essential since our contracts were dependent on these metrics improving.
+
+                    Providers had an easier time managing patient messages.
                 </p>
             </section>
             

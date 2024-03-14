@@ -20,7 +20,7 @@ const FraudFlow: NextPage = () => {
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Before:</h2>
                 <p>
-                    Users were asked to upload a bank statement and then wait over a week for manual verification. 
+                    Before this project, users were asked to upload a bank statement and then wait over a week for manual verification. 
                     They received no other information from us and would often reach out to our customer service team with questions. 
                     Our customer service team would also need to reach out for more documents depending on their type of restriction.
                 </p>
@@ -58,9 +58,10 @@ const FraudFlow: NextPage = () => {
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>After:</h2>
                 <p>
-                    Users are asked to upload specific documents depending on their restriction. This was hard to implement 
-                    because their restriction states came from several fraud verification vendors that we had to normalize. 
-                    Users were also then shown the status of their restricted state.
+                    After the project shipped, users were asked to upload specific documents depending on their restriction(s) without contacting our Customer Service team.
+                    In the new fraud flow, users could upload documents without worrying about the underlining restriction(s) causing their account to be locked since
+                    this information was often confusing and unhelpful to the end user. Users were also then shown the status of their restricted state, so they could
+                    monitor their documents' progress without reaching out to our Customer Service team.
                 </p>
                 <Image
                     src="/images/projects/new-fraud-flow.png"
@@ -73,10 +74,18 @@ const FraudFlow: NextPage = () => {
             </section>
 
             <section>
+                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
+                <p>
+                    Ellevest users' restriction states came from several fraud verification vendors that we had to normalize. 
+                    This logic was complicated and hard to structure into clean code.
+                </p>
+            </section>
+
+            <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Impact</h2>
                 <p>
-                    4% increase in membership conversion, 20% increase in 10 day funding rate, and a 2-day reduction in the time 
-                    users spent in a fraud restricted state
+                    This project was hugely impactful. It resulted in a 4% increase in membership conversion, 20% increase in 10 day funding rate, and a 2-day reduction in the time 
+                    users spent in a fraud restricted state. This was a huge win for me and my team.
                 </p>
             </section>
             

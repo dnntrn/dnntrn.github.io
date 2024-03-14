@@ -6,12 +6,13 @@ import { universialMotionVariant } from '../motion';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useCallback } from 'react';
 import { usePathname, useSearchParams, useRouter } from 'next/navigation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStarOfLife } from '@fortawesome/free-solid-svg-icons';
 
 const Work: NextPage = () => {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
-  // const [selectedProject, setSelectedProject] = useState<React.ReactNode>();
 
   const createQueryString = useCallback(
     (name: string, value: string) => {
@@ -31,6 +32,9 @@ const Work: NextPage = () => {
           {!selectedProject && (
               <motion.section variants={universialMotionVariant} exit="exit">
                 <h1 className='text-[4rem] font-brittany text-t-mobile text-center'>Work</h1>
+                <p className='text-center my-3'>
+                  <FontAwesomeIcon icon={faStarOfLife} className="text-t-mobile" /> indicates my personal favorite projects
+                </p>
                 <div className="auto-rows-max grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-2 mt-5">
                   {projects.map(({ title, id, ...rest }, i) => (
                       <motion.div

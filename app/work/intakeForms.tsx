@@ -10,10 +10,12 @@ const IntakeForms: NextPage = () => {
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Background</h2>
                 <p>
-                    This project was built for Season Health. We initially only offered our product to patients 
-                    of payers we were contracted with. We pivoted to have a D2C offering and needed to collect 
-                    more upfront information about our users&apos; health. This information needed to be accessible 
-                    in our own admin application as well as a third party EHR.
+                    This project was built for Season Health.
+
+                    Previously, our product was only available to patients through our contracts with Payers. These Payers would provide us
+                    some information about their patients&apos; health. We pivoted to a D2C offering and needed to collect this information
+                    directly in our application. This information needed to be accessible in our own admin application as well as a 
+                    third party EHR.
                 </p>
                 <Image
                         src="/images/projects/intake-form.png"
@@ -26,16 +28,18 @@ const IntakeForms: NextPage = () => {
             </section>
 
             <section>
-                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>What was hard?</h2>
+                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
                 <ul className='ml-10'>
                     <li>
-                        <span className="font-bold">Data management:</span> answers collected needed to be persisted across other forms in the app.
+                        <span className="font-bold">Data management:</span> The answers we collected needed to be persisted across other forms in the app. We used formik
+                        and react query to achieve this.
                     </li>
                     <li>
-                        <span className="font-bold">Form Validation:</span> answers collected had to be validated, especially when collecting health metrics like A1C
+                        <span className="font-bold">Form Validation:</span> The answers we collected had to be validated under specific restraints, especially when collecting health metrics like A1C.
+                        We used Yup for this form validation. We wanted to make sure that all errors displayed would not negatively affect the experience.
                     </li>
                     <li>
-                        <span className="font-bold">Third Party EHR:</span> form answers needed to be pushed to our EHR, Healthie. Unfortunately, 
+                        <span className="font-bold">Third Party EHR:</span> The answers needed to be pushed to our EHR, Healthie. Unfortunately, 
                         their api was very brittle and any subsequent form changes would break this connection. We had to 
                         build the form with this in mind.
                     </li>
@@ -44,7 +48,10 @@ const IntakeForms: NextPage = () => {
             
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Impact</h2>
-                <p>Providers can spend less time per patient since their initial health information is collected in-app.</p>
+                <p>
+                    Providers could spend less time per patient since their initial health information was collected in-app instead of verbally in meetings.
+                    This reduced the company's cost for each appointment.
+                </p>
             </section>
 
             <section>

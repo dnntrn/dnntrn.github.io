@@ -26,7 +26,7 @@ const Storefront: NextPage = () => {
             </section>
             
             <section>
-                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>highlights of the hard stuff:</h2>
+                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
                 <Image
                     src="/images/projects/vendors.png"
                     alt="vendors"

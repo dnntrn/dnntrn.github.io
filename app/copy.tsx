@@ -27,6 +27,7 @@ export const projects = [
         image: "/images/projects/checkout.png",
         title: "New Cart & Checkout Flow",
         description: "New checkout experience that supports multiple carts and checkout options",
+        isFavorite: true,
     },
     {
         id: ProjectIds.STOREFRONT,
@@ -45,12 +46,14 @@ export const projects = [
         image: "/images/projects/galley.png",
         title: "Design System",
         description: "Spearheaded our effort to move from MUI to a custom design system",
+        isFavorite: true,
     },
     {
         id: ProjectIds.FRAUD_FLOW,
         image: "/images/projects/fraud-flow.png",
         title: "Fraud Flow",
         description: "Revamped the in-app fraud flow for users flagged as potential bad actors",
+        isFavorite: true,
     },
 ]
 

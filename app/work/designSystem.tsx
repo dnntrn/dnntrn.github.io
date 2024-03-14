@@ -11,7 +11,7 @@ const DesignSystem: NextPage = () => {
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Background</h2>
                 <p>
                     This project was built for Season Health. Season was using Material UI to build most of their 
-                    components. We wanted a more customized experience and decided to create a custom reusuable component library.
+                    components. We wanted a more customized experience and decided to create a custom reusuable UI library.
                 </p>
             </section>
 
@@ -45,8 +45,20 @@ const DesignSystem: NextPage = () => {
             </section>
             
             <section>
+                <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
+                <p>
+                    The existing MUI components were heavily used throughout our app. While I created new custom components, I had to replace these old components.
+                    This wasn't always straightforward depending on how these old components were used or styled. It often required me to refactor major parts of our codebase.
+                </p>
+            </section>
+    
+            <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Impact</h2>
-                <p>Faster delivery times for sprint work and more consistency across our app</p>
+                <p>
+                    This project resulted in faster delivery times from our engineering team since our engineers now had a library of reusable components to draw from.
+                    It also reduced the amount of communication that the frontend team needed to do with our designer since these components were pre-built.
+                    Finally, it allowed our backend engineers to work on the frontend of our admin app without much assistance since the components already existed.
+                </p>
             </section>
 
             <section>
