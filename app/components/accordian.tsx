@@ -1,7 +1,6 @@
 'use client'
 import clsx from "clsx";
 import { useState } from "react";
-import Role from "./role";
 
 type Props = {
     role: string;

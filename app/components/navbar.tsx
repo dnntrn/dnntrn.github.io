@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { useCallback, useEffect, useState } from "react";
 import clsx from "clsx";
 
 const Navbar = () => {
-    let pathname = usePathname() || "/";
+    const pathname = usePathname() || "/";
     const [scrollY, setScrollY] = useState(0);
-    const [hoveredPath, setHoveredPath] = useState<string>();
+    // const [hoveredPath, setHoveredPath] = useState<string>();
     const navItems = [
         {
             path: "/",

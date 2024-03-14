@@ -48,7 +48,7 @@ const DesignSystem: NextPage = () => {
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
                 <p>
                     The existing MUI components were heavily used throughout our app. While I created new custom components, I had to replace these old components.
-                    This wasn't always straightforward depending on how these old components were used or styled. It often required me to refactor major parts of our codebase.
+                    This wasn&apos;t always straightforward depending on how these old components were used or styled. It often required me to refactor major parts of our codebase.
                 </p>
             </section>
     

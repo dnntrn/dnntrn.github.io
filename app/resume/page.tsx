@@ -12,7 +12,7 @@ const Resume: NextPage = () => {
             const fileURL =
                 window.URL.createObjectURL(blob);
                 
-            let alink = document.createElement("a");
+            const alink = document.createElement("a");
             alink.href = fileURL;
             alink.download = "Deanna Tran Resume.pdf";
             alink.click();

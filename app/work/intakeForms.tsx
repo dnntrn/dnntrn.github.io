@@ -50,7 +50,7 @@ const IntakeForms: NextPage = () => {
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Impact</h2>
                 <p>
                     Providers could spend less time per patient since their initial health information was collected in-app instead of verbally in meetings.
-                    This reduced the company's cost for each appointment.
+                    This reduced the company&apos;s cost for each appointment.
                 </p>
             </section>
 

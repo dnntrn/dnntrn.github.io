@@ -29,7 +29,7 @@ const Bio = () => {
                 <p className='font-poppins text-t-mobile font-bold mt-4'>I&apos;m proud to have taught students with:</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
                     {mentoredAt.map((org) => (
-                        <a key={org.link} href={org.link} target="_blank">
+                        <a key={org.link} href={org.link} target="_blank" rel="noreferrer">
                             <Image
                                 src={org.src}
                                 alt={org.alt}

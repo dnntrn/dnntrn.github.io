@@ -21,7 +21,7 @@ const InfoColumn: NextPage = () => {
                         <div>New York City, NY</div>
                     </div>
                     {contactsList.map((c) => (
-                        <a href={c.link} target="_blank">
+                        <a key={c.text} href={c.link} target="_blank" rel="noreferrer">
                             <div className="flex gap-2">
                                 <FontAwesomeIcon className="w-[.625rem] my-auto" icon={ c.icon } />
                                 <div>{c.text}</div>
@@ -33,7 +33,7 @@ const InfoColumn: NextPage = () => {
             <Section title="Links" content={
                 <div className="flex flex-col gap-1">
                      {linksList.map((link) => (
-                        <a href={link.link} target="_blank">
+                        <a key={link.text} href={link.link} target="_blank" rel="noreferrer">
                             <div className="flex gap-2">
                                 <FontAwesomeIcon className="w-[.625rem] my-auto" icon={ link.icon } />
                                 <div>{link.text}</div>

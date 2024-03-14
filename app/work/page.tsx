@@ -23,7 +23,7 @@ const Work: NextPage = () => {
     },
     [searchParams]
   )
-  let selectedProject = useSearchParams().get("project") as ProjectIds;
+  const selectedProject = useSearchParams().get("project") as ProjectIds;
 
 
   return (

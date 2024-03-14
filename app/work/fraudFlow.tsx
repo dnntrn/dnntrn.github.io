@@ -61,7 +61,7 @@ const FraudFlow: NextPage = () => {
                     After the project shipped, users were asked to upload specific documents depending on their restriction(s) without contacting our Customer Service team.
                     In the new fraud flow, users could upload documents without worrying about the underlining restriction(s) causing their account to be locked since
                     this information was often confusing and unhelpful to the end user. Users were also then shown the status of their restricted state, so they could
-                    monitor their documents' progress without reaching out to our Customer Service team.
+                    monitor their documents&apos; progress without reaching out to our Customer Service team.
                 </p>
                 <Image
                     src="/images/projects/new-fraud-flow.png"
@@ -76,7 +76,7 @@ const FraudFlow: NextPage = () => {
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Difficult Tasks</h2>
                 <p>
-                    Ellevest users' restriction states came from several fraud verification vendors that we had to normalize. 
+                    Ellevest users&apos; restriction states came from several fraud verification vendors that we had to normalize. 
                     This logic was complicated and hard to structure into clean code.
                 </p>
             </section>

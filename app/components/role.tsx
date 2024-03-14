@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faL, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Chip from "./chip";
 
 type Props = {
@@ -25,7 +25,7 @@ const Role = ({ isCondensed, title, company, companyWebsite, location, date, com
                     </div>
                     {companyWebsite && (
                         <div>
-                            <a href={companyWebsite} target="_blank">{companyWebsite}</a>
+                            <a href={companyWebsite} target="_blank" rel="noreferrer">{companyWebsite}</a>
                         </div>
                     )}
                 </div>
@@ -55,7 +55,7 @@ const Role = ({ isCondensed, title, company, companyWebsite, location, date, com
                     <div>
                         <span className="resume-role-company">
                             {companyWebsite ?
-                                <a href={companyWebsite} target="_blank">{company}</a> :
+                                <a href={companyWebsite} target="_blank" rel="noreferrer">{company}</a> :
                                 <>{company}</>
                             }
                         </span> - {location}</div>
