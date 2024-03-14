@@ -1,9 +1,8 @@
 import type { NextPage } from 'next'
 import Section from './section'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { contacts } from '../copy';
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { contactsList, linksList } from '../copy';
 
 const InfoColumn: NextPage = () => {
   return (
@@ -16,28 +15,31 @@ const InfoColumn: NextPage = () => {
             } />
             <Section title="Contact" content={
                 <div className="flex flex-col gap-1">
+                    
                     <div className="flex gap-2">
-                        <FontAwesomeIcon className="w-[.625rem]" icon={ faLocationDot } />
+                        <FontAwesomeIcon className="w-[.625rem] my-auto" icon={ faLocationDot } />
                         <div>New York City, NY</div>
                     </div>
-                    <a href={contacts.email.link} target="_blank">
-                        <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[.625rem]" icon={ faEnvelopeOpen } />
-                            <div>{contacts.email.text}</div>
-                        </div>
-                    </a>
-                    <a href={contacts.phone.link} target="_blank">
-                        <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[.625rem]" icon={ faPhone } />
-                            <div>{contacts.phone.text}</div>
-                        </div>
-                    </a>
-                    <a href={contacts.linkedin.link} target="_blank">
-                        <div className="flex gap-2">
-                            <FontAwesomeIcon className="w-[.625rem]" icon={ faLinkedin } />
-                            <div>{contacts.linkedin.text}</div>
-                        </div>
-                    </a>  
+                    {contactsList.map((c) => (
+                        <a href={c.link} target="_blank">
+                            <div className="flex gap-2">
+                                <FontAwesomeIcon className="w-[.625rem] my-auto" icon={ c.icon } />
+                                <div>{c.text}</div>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            } />
+            <Section title="Links" content={
+                <div className="flex flex-col gap-1">
+                     {linksList.map((link) => (
+                        <a href={link.link} target="_blank">
+                            <div className="flex gap-2">
+                                <FontAwesomeIcon className="w-[.625rem] my-auto" icon={ link.icon } />
+                                <div>{link.text}</div>
+                            </div>
+                        </a>
+                    ))}
                 </div>
             } />
             <Section title="Education" content={
@@ -59,9 +61,6 @@ const InfoColumn: NextPage = () => {
                     <li>Written and verbal communication</li>
                     <li>Cross-functional collaboration</li>
                 </ul>
-            } />
-            <Section title="Work Eligibility" content={
-                <div>Eligible to work in the U.S. with no restrictions</div>
             } />
             <Section title="Interests" content={
                 <div>Reading, cats, sweets, and coding! :)</div>

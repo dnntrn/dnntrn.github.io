@@ -1,4 +1,5 @@
-import { faBook, faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faMusic, faEnvelopeOpen, faPhone, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import IntermittentMesaging from "./work/intermittentMessaging";
 import CartAndCheckout from "./work/cartAndCheckout";
 import Storefront from "./work/storefront";
@@ -163,16 +164,31 @@ export const interests = [
 ]
 
 export const contacts = {
-    linkedin: {
-        text: 'linkedin.com/in/deannatran/',
-        link: 'https://www.linkedin.com/in/deannatran/'
-    },
     email: {
         text: 'itsdeannatran@gmail.com',
-        link: 'mailto:itsdeannatran@gmail.com'
+        link: 'mailto:itsdeannatran@gmail.com',
+        icon: faEnvelopeOpen,
     },
     phone: {
         text: '856-405-7989',
-        link: 'tel:+18564057989'
+        link: 'tel:+18564057989',
+        icon: faPhone,
+    }
+};
+
+export const contactsList = [contacts.email, contacts.phone];
+
+export const links = {
+    linkedin: {
+        text: 'linkedin.com/in/deannatran/',
+        link: 'https://www.linkedin.com/in/deannatran/',
+        icon: faLinkedin,
+    },
+    website: {
+        text: "dnntrn.github.io",
+        link: 'https://dnntrn.github.io/',
+        icon: faGlobe,
     }
 }
+
+export const linksList = [links.linkedin, links.website];
