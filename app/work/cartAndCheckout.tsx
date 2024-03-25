@@ -17,29 +17,45 @@ const CartAndCheckout: NextPage = () => {
             
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>V1 (public)</h2>
-                <div className="block md:flex gap-4">
+                <div className="w-full mb-6">
+                    <p>
+                        Upon checking out, the user can see all active carts in a modal (similar to Instacart). Before, this modal did not exist and users
+                        had to check out each cart individually.
+                    </p>
+
+                    <p className='font-bold mt-4'>Requirements:</p>
+                    <ul className='ml-10'>
+                        <li> cart item displays subtotal and delivery estimates as well as previews of items for that cart</li>
+                        <li>cart items instantly update as more items are added and more carts are added</li>
+                    </ul>
+                </div>
+                <div className="flex gap-4 overflow-scroll">
                     <Image
-                        src="/images/projects/checkout.png"
-                        alt="cart"
+                        src="/images/projects/cart1.jpg"
+                        alt="Season cart"
                         width="0"
                         height="0"
                         sizes="100vw"
-                        className="w-full md:w-[30%] h-auto m-auto"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
                     />
-                    <div className="w-full md:w-1/2 mt-6 md:mt-0">
-                        <p>
-                            Upon checking out, the user can see all active carts in a modal (similar to Instacart). Before, this modal did not exist and users
-                            had to check out each cart individually.
-                        </p>
-
-                        <p className='font-bold mt-4'>Requirements:</p>
-                        <ul className='ml-10'>
-                            <li> cart item displays subtotal and delivery estimates as well as previews of items for that cart</li>
-                            <li>cart items instantly update as more items are added and more carts are added</li>
-                        </ul>
-                    </div>
-
+                    <Image
+                        src="/images/projects/cart6.jpg"
+                        alt="Season checkout cart"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/summary-banner.jpg"
+                        alt="recipe summary banner"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
                 </div>
+                
             </section>
             
             <section>
@@ -62,7 +78,60 @@ const CartAndCheckout: NextPage = () => {
                     sizes="100vw"
                     className="w-full md:w-[50%] h-auto m-auto"
                 />
+
+                <div className="flex gap-4 mt-6 overflow-scroll">
+                    <Image
+                        src="/images/projects/cart1.jpg"
+                        alt="Season cart page 1"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/cart2.jpg"
+                        alt="Season cart page 2"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/cart3.jpg"
+                        alt="Season cart page 3"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/cart4.jpg"
+                        alt="Season cart page 4"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/cart5.jpg"
+                        alt="Season cart page 5"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                    <Image
+                        src="/images/projects/cart6.jpg"
+                        alt="Season cart page 6"
+                        width="0"
+                        height="0"
+                        sizes="100vw"
+                        className="w-[70%] m-auto md:w-[20%] h-auto"
+                    />
+                </div>
             </section>
+
+
 
             <section>
                 <h2 className='font-poppins uppercase text-t-mobile text-[1rem] md:text-[1.3rem] font-bold mb-2'>Impact</h2>

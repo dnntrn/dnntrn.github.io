@@ -734,6 +734,12 @@ body {
 .w-full {
   width: 100%;
 }
+.w-\[50\%\] {
+  width: 50%;
+}
+.w-\[70\%\] {
+  width: 70%;
+}
 .max-w-\[90\%\] {
   max-width: 90%;
 }
@@ -812,6 +818,9 @@ body {
 }
 .overflow-hidden {
   overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
 }
 .rounded-4xl {
   border-radius: 3.125rem;
@@ -1231,6 +1240,14 @@ ul {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .md\:w-\[20\%\] {
+    width: 20%;
   }
 
   .md\:grid-cols-2 {
