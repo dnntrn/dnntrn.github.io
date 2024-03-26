@@ -89,7 +89,7 @@ const CartAndCheckout: NextPage = () => {
                         className="w-[70%] m-auto md:w-[20%] h-auto"
                     />
                     <Image
-                        src="/images/projects/cart2.jpg"
+                        src="/images/projects/cart3.jpg"
                         alt="Season cart page 2"
                         width="0"
                         height="0"
@@ -97,7 +97,7 @@ const CartAndCheckout: NextPage = () => {
                         className="w-[70%] m-auto md:w-[20%] h-auto"
                     />
                     <Image
-                        src="/images/projects/cart3.jpg"
+                        src="/images/projects/cart2.jpg"
                         alt="Season cart page 3"
                         width="0"
                         height="0"
